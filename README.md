@@ -6,4 +6,4 @@ Community patches
 
 ---
 
-`GlacierOrganisation.CommunityPatches` v0.11.0, by Fill in later with names of all contributers. This README was automatically generated from the mod's manifest.
+`GlacierOrganisation.CommunityPatches` v0.12.0, by Fill in later with names of all contributers. This README was automatically generated from the mod's manifest.
