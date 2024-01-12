@@ -8,6 +8,7 @@
 	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.7",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
+	"dependencies": ["00954F2A467328E9"],
 	"localisationOverrides": {
 		"00E8D1F727A21C56": {
 			"english": {
