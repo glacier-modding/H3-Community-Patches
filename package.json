@@ -1,0 +1,20 @@
+{
+	"name": "smf-mod",
+	"version": "0.0.0",
+	"description": "An SMF mod.",
+	"license": "LGPL-3.0-only",
+	"private": true,
+	"devDependencies": {
+		"conventional-changelog-conventionalcommits": "^6.1.0",
+		"husky": "^8.0.3",
+		"lint-staged": "^13.2.3",
+		"prettier": "3.0.0",
+		"semantic-release-export-data": "^1.0.1"
+	},
+	"scripts": {
+		"prepare": "husky install"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	}
+}

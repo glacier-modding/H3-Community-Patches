@@ -1,0 +1,205 @@
+name: Release
+
+permissions:
+    contents: write
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        if: "!startsWith(github.ref, 'refs/tags/')"
+
+        steps:
+            - uses: actions/checkout@v2
+              with:
+                  ref: "main"
+                  fetch-depth: 0
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+
+            - name: Install dependencies
+              run: |
+                  npm install
+
+            - name: Create .releaserc
+              env:
+                  REPO_URL: ${{ format('https://github.com/{0}.git', github.repository) }}
+              run: |
+                  echo "{\"branches\":[\"main\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
+
+            - name: Get first commit
+              id: firstCommit
+              run: echo "FIRST_COMMIT=$(git rev-list --date-order main | tail -1)" >> $GITHUB_OUTPUT
+
+            - uses: mukunku/tag-exists-action@v1.2.0
+              id: checkTag
+              with:
+                  tag: "0.1.0"
+
+            - name: Create tag
+              if: ${{ steps.checkTag.outputs.exists == 'false' }}
+              uses: tvdias/github-tagger@v0.0.2
+              with:
+                  repo-token: ${{ secrets.GITHUB_TOKEN }}
+                  tag: "0.1.0"
+                  commit-sha: ${{ steps.firstCommit.outputs.FIRST_COMMIT }}
+
+            - name: Get new version
+              id: newVersion
+              run: npx --yes semantic-release --branches main --dry-run
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Get latest framework version
+              id: latestFramework
+              uses: pozetroninc/github-action-get-latest-release@v0.7.0
+              with:
+                  repository: atampy25/simple-mod-framework
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Update manifest.json version
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: jossef/action-set-json-field@v2
+              with:
+                  file: "manifest.json"
+                  field: "version"
+                  value: ${{ steps.newVersion.outputs.new-release-version }}
+
+            - name: Update manifest.json frameworkVersion
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: jossef/action-set-json-field@v2
+              with:
+                  file: "manifest.json"
+                  field: "frameworkVersion"
+                  value: ${{ steps.latestFramework.outputs.release }}
+
+            - name: Update manifest.json updateCheck
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: jossef/action-set-json-field@v2
+              with:
+                  file: "manifest.json"
+                  field: "updateCheck"
+                  value: ${{ format('https://github.com/{0}/releases/latest/download/updates.json', github.repository) }}
+
+            - name: Get mod ID
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modID
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "manifest.json"
+                  prop_path: "id"
+
+            - name: Get mod name
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modName
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "manifest.json"
+                  prop_path: "name"
+
+            - name: Get mod description
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modDesc
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "manifest.json"
+                  prop_path: "description"
+
+            - name: Get mod authors
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modAuthors
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                  path: "manifest.json"
+                  prop_path: "authors"
+
+            - name: Read README.md
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: readme
+              uses: juliangruber/read-file-action@v1.1.6
+              with:
+                  path: README.md
+
+            - name: Auto-generate README
+              if: ${{ steps.newVersion.outputs.new-release-version && (contains(steps.readme.outputs.content, 'Simple Mod Framework mod template') || contains(steps.readme.outputs.content, 'This README was automatically generated from the mod''s manifest.')) }}
+              uses: DamianReeves/write-file-action@v1.2
+              with:
+                  path: README.md
+                  contents: |
+                      # ${{ steps.modName.outputs.prop }}
+                      ${{ steps.modDesc.outputs.prop }}
+
+                      [Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}) | [Download](${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }})
+
+                      ---
+
+                      `${{ steps.modID.outputs.prop }}` v${{ steps.newVersion.outputs.new-release-version }}, by ${{ join(fromJSON(steps.modAuthors.outputs.prop), ', ') }}. This README was automatically generated from the mod's manifest.
+                  write-mode: overwrite
+
+            - name: Format
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: actionsx/prettier@v2
+              with:
+                  args: --write .
+
+            - name: Commit changes
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: EndBug/add-and-commit@v9.1.0
+              with:
+                  default_author: github_actions
+                  message: "chore: mod update"
+                  tag: ${{ steps.newVersion.outputs.new-release-version }}
+
+            - name: Generate changelog
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: changelog
+              uses: loopwerk/tag-changelog@v1.0.4
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  config_file: .github/tag-changelog-config.js
+                  exclude_types: other,docs,chore,build,amend,refactor
+
+            - name: Copy files
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              env:
+                  TARGETDIR: ${{ steps.modID.outputs.prop }}
+              run: |
+                  mkdir $TARGETDIR
+                  for file in *;do test "$file" != "$TARGETDIR" && cp -r "$file" "$TARGETDIR/";done
+                  rm -rf "$TARGETDIR/node_modules"
+                  rm "$TARGETDIR/package.json" "$TARGETDIR/package-lock.json" "$TARGETDIR/README.md"
+
+            - name: Create ZIP
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: TheDoctor0/zip-release@4fb9e4ff72847dd3d1c111cf63834e353ed7cb3d
+              with:
+                  filename: mod.framework.zip
+                  path: ${{ steps.modID.outputs.prop }}
+
+            - name: Create updates.json
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              env:
+                  VERSION: ${{ toJSON(steps.newVersion.outputs.new-release-version) }}
+                  CHANGELOG: ${{ toJSON(steps.changelog.outputs.changes) }}
+                  URL: ${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}
+              run: |
+                  echo "{\"version\":$VERSION,\"changelog\":$CHANGELOG,\"url\":\"$URL\"}" > updates.json
+
+            - name: Release
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: softprops/action-gh-release@v1
+              with:
+                  name: ${{ steps.newVersion.outputs.new-release-version }}
+                  body: "[Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/download/{1}/mod.framework.zip', github.repository, steps.newVersion.outputs.new-release-version) }}) | [Download](${{ format('https://github.com/{0}/releases/download/{1}/mod.framework.zip', github.repository, steps.newVersion.outputs.new-release-version) }})\n\n${{ steps.changelog.outputs.changes }}"
+                  tag_name: ${{ steps.newVersion.outputs.new-release-version }}
+                  repository: ${{ github.repository }}
+                  files: |
+                      mod.framework.zip
+                      updates.json
