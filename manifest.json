@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.10.0",
+	"version": "0.10.1",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "Community patches",
@@ -21,9 +21,9 @@
 		},
 		"004757029ED4D7C4": {
 			"english": {
-				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by...",
+				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance.",
 				"3503488150": "Bag of \"Allergy Pills\"",
-				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance."
+				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
 			}
 		},
 		"00F3D25FC3719890": {
@@ -35,9 +35,9 @@
 			"english": {
 				"3103369177": "<li>Complete \"Landslide.\"</li><li>Assassinate your target with a sniper rifle.</li><li>Only eliminate the target.</li><li>Do not get spotted.</li><li>If you are detected by cameras, erase or destroy the evidence.</li>"
 			},
-		        "spanish": {
-				"3103369177": "<li>Completa «Mayoría absoluta».</li><li>Asesina al objetivo con un rifle de francotirador.</li><li>Elimina solo al objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>",
-				"2380515275": "<li>Completa «Mayoría absoluta».</li><li>Elimina solo al objetivo.</li><li>Que no descubran cuerpos.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
+			"spanish": {
+				"2380515275": "<li>Completa «Mayoría absoluta».</li><li>Elimina solo al objetivo.</li><li>Que no descubran cuerpos.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>",
+				"3103369177": "<li>Completa «Mayoría absoluta».</li><li>Asesina al objetivo con un rifle de francotirador.</li><li>Elimina solo al objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
 			}
 		},
 		"007EFEA46EF94D6F": {
