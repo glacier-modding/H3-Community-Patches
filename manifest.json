@@ -7,5 +7,20 @@
 	"authors": ["Fill in later with names of all contributers"],
 	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.7",
-	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
+	"localisationOverrides": {
+		"00E8D1F727A21C56": {
+			"english": {
+				"512609165": "Protected<br>Reservoir"
+			},
+			"french": {},
+			"italian": {},
+			"german": {},
+			"spanish": {},
+			"russian": {},
+			"chineseSimplified": {},
+			"chineseTraditional": {},
+			"japanese": {}
+		}
+	}
 }
