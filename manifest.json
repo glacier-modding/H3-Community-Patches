@@ -1,9 +1,9 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
 	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Test Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
+	"id": "GlacierOrganisation.CommunityPatches",
+	"name": "Community Patches",
+	"description": "Community patches",
+	"authors": ["Fill in later with names of all contributers"],
 	"frameworkVersion": "2.25.1"
 }
