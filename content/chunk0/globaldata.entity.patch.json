@@ -10,6 +10,18 @@
 		},
 		{
 			"SubEntityOperation": [
+				"7018bf8d75cad124",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Terminus" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5fad2c74b5d5fae5",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Terminus" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"8456e7b29aff6e5b",
 				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Ninja" } }
 			]
