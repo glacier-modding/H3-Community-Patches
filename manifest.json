@@ -3,7 +3,7 @@
 	"version": "0.13.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
-	"description": "Community patches",
+	"description": "A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assassination). This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
 	"authors": ["Fill in later with names of all contributers"],
 	"contentFolders": ["content"],
 	"frameworkVersion": "2.33.7",
