@@ -6,4 +6,4 @@ A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assass
 
 ---
 
-`GlacierOrganisation.CommunityPatches` v0.14.0, by Fill in later with names of all contributers. This README was automatically generated from the mod's manifest.
+`GlacierOrganisation.CommunityPatches` v0.14.1, by Fill in later with names of all contributers. This README was automatically generated from the mod's manifest.
