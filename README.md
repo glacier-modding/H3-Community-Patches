@@ -4,6 +4,6 @@ A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assass
 
 [Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/mod.framework.zip) | [Download](https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/mod.framework.zip)
 
----
+## Contributing
 
-`GlacierOrganisation.CommunityPatches` v0.14.1, by Fill in later with names of all contributers. This README was automatically generated from the mod's manifest.
+To contribute a fix, make a branch (or make a fork if you don't have permissions to make a branch), and then commit your fix to the branch as `feat: fix this thing`. Note: do not use a `fix:` commit - your fix is to the game, not to the mod (it's a _feature_ of the mod, hence the `feat:` tag; a `fix:` commit would be if one of the mod's bug fixes didn't work properly and you were resolving that). Then, make a pull request to this repository. If there's an issue in this repository that your contribution fixes, you can add `Fixes #15` (or whatever the number is) to the PR description and the issue will be closed automatically when your PR is merged.
