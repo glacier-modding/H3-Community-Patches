@@ -1,0 +1,12 @@
+{
+    "tempHash": "00548596858A571E",
+    "tbluHash": "008F01B3DA3BA6D2",
+    "patch": [{
+            "SubEntityOperation": ["24c1bc75a124b3d7", {
+                    "RemovePropertyByName": "m_eRequiredVoiceVariation"
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}
