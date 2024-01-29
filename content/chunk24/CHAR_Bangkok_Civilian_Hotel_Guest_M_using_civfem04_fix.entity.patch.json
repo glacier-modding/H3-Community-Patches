@@ -5,9 +5,7 @@
 		{
 			"SubEntityOperation": [
 				"24c1bc75a124b3d7",
-				{
-					"RemovePropertyByName": "m_eRequiredVoiceVariation"
-				}
+				{ "SetPropertyValue": { "property_name": "m_eRequiredVoiceVariation", "value": "eAVV_Undefined" } }
 			]
 		}
 	],
