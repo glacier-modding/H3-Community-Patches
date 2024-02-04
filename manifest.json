@@ -22,6 +22,63 @@
 				"4247778829": "Estranged daughter of Robert Knox, Sierra Knox wasn't dealt the best of cards from her early childhood. Her mother died due to complications from childbirth, a fact that Sierra to this day still believes her father holds her secretly responsible for.<br><br>Growing up with a father who always worked, Sierra developed a somewhat reckless personality, always trying to out-do everyone else – including her old man. At age of 17, she was deeply involved with competitive short distance running and, worried that she might lose to her high school competitor, paid a man to ensure the competitor didn't run that afternoon. The competitor was chained to a wheelchair for the rest of her life while Sierra won the race easily. The tactic is one she would use again and again to get the upper hand in both athletics and life in general.<br><br>Sierra Knox graduated from Harvard business school and, without telling her father, secured a job with Kronstadt Industries, diligently working her way to the top of the financial department, finally interviewing for the position of CFO with her somewhat surprised father.<br><br>Sierra Knox has been instrumental in developing the money-earning side of the family business, and she has secured many deals with foreign nationals, including a very controversial decision to field test robot matériel in several rogue nations. While the loss of civilian life was never formally assigned as collateral damage following those tests, leaked internal reports suggest as much.<br><br>Sierra suffers from a serious inferiority complex in relation to her father. Always trying to prove herself to him but often coming up short, she is uncertain about whether he truly cares for her or not. Her insecurity causes her to act out, often irrationally or violently, and she is known for her lifestyle of working hard and partying even harder.<br><br>Sierra Knox is currently highly invested in the Kronstadt racing team and is the company’s lead driver in the Innovation Race. She’s won the race multiple times and is expected to bring home the trophy again."
 			}
 		},
+		"00212D5C62DFFC1F": {
+			"english": {
+				"212547078": "as a Masseur",
+				"704479754": "as a Guard",
+				"710750773": "as a Mechanic",
+				"1445944246": "as a Doctor",
+				"2774112508": "as Helmut Kruger",
+				"3116312591": "as a Fortune Teller",
+				"3159119943": "as a Painter",
+				"3456848918": "as a Chef",
+				"3823933482": "as a Bodyguard",
+				"4166999372": "as a Golf Coach",
+				"4178550028": "as a Waiter",
+				"4293601719": "as a Prisoner"
+			},
+			"italian": {
+				"212547078": "come massaggiatore",
+				"704479754": "come guardia",
+				"710750773": "come meccanico",
+				"1445944246": "come dottore",
+				"2774112508": "come Helmut Kruger",
+				"3116312591": "come chiromante",
+				"3159119943": "come pittore",
+				"3456848918": "come cuoco",
+				"3823933482": "come guardia del corpo",
+				"4166999372": "come maestro di golf",
+				"4178550028": "come cameriere",
+				"4293601719": "come prigioniero"
+			},
+			"german": {
+				"212547078": "als Masseur",
+				"704479754": "als Wachmann",
+				"710750773": "als Mechaniker",
+				"1445944246": "als Arzt",
+				"3116312591": "als Wahrsager",
+				"3159119943": "als Maler",
+				"3456848918": "als Koch",
+				"3823933482": "als Leibwächter",
+				"4166999372": "als Golftrainer",
+				"4178550028": "als Kellner",
+				"4293601719": "als Gefangener"
+			},
+			"spanish": {
+				"212547078": "como masajista",
+				"704479754": "como guardia",
+				"710750773": "como mecánico",
+				"1445944246": "como médico",
+				"2774112508": "como Helmut Kruger",
+				"3116312591": "como adivino",
+				"3159119943": "como pintor",
+				"3456848918": "como chef",
+				"3823933482": "como guardaespaldas",
+				"4166999372": "como entrenador de golf",
+				"4178550028": "como camarero",
+				"4293601719": "como prisionero"
+			}
+		},
 		"004757029ED4D7C4": {
 			"english": {
 				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance.",
@@ -64,10 +121,75 @@
 				"2736038867": "<li>Completa «El autor».</li><li>Asesina a los objetivos con un rifle de francotirador.</li><li>Elimina solo a los objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
 			}
 		},
+		"00C4FB89CD2F7B77": {
+			"english": {
+				"639433783": "as a Waiter",
+				"1401254989": "as Blake Nathaniel",
+				"1987771976": "as Jebediah Block",
+				"1987835598": "as an Initiate",
+				"2157020045": "as a Custodian",
+				"2632285073": "as a Chef",
+				"2680816233": "as an Ark Member",
+				"2927574175": "as an Architect",
+				"3086689137": "in Burial Robes",
+				"3651785796": "as an Armored Knight",
+				"4098699491": "as the Master of Ceremonies"
+			},
+			"it": {
+				"639433783": "come cameriere",
+				"1401254989": "come Blake Nathaniel",
+				"1987771976": "come Jebediah Block",
+				"1987835598": "come iniziato",
+				"2157020045": "come custode",
+				"2632285073": "come cuoco",
+				"2680816233": "come membro della Ark",
+				"2927574175": "come architetto",
+				"3086689137": "in abiti da sepoltura",
+				"3651785796": "come cavaliere con l'armatura",
+				"4098699491": "come Maestro delle cerimonie"
+			}
+		},
 		"00C796C90662568C": {
 			"english": {
 				"1234402955": "Richard Ekwensi is a dictator in exile. Educated in France as a part of the nation's continuing post-colonial links, he became increasingly unstable and paranoid after taking up the reins of power from his father. This culminated in a bloody massacre in the Kanhaar Valley where French military equipment was used against civillians. International opinion turned firmly against the Ekwensi regime, and he was removed from power in a short but decisive military campaign executed by a joint Chinese/NATO military force. The caretaker government appears stable, but the target no doubt entertains ambitions of a return to the presidential palace.",
 				"2467793999": "Wen Ts'ai is a food critic infamous across the Pacific rim, and beyond. He is urbane, cultivated and has a dedication to epicurean perfection that is unmatched. He travels the world, sampling the finest cuisine and writing about it on his much-followed foodie blog, and in various lifestyle media programs. <br><br>He prides himself on being above such crass specifics as \"texture\" and \"flavor.\" Instead, he applies himself to the experience as a whole, and does not dirty his palate with plebeian things. <br><br>His ongoing crusade against \"the peddlers of filthy degustation\" has earned him a wide following that delights in his biting wit and cruel attention to detail.<br><br>During a restaurant visit in Shanghai, he livestreamed an extended diatribe triggered by his ur-glacial water being 2 degrees overchilled (as measured by his trademark IR thermometer). In Auckland he spent an hour berating the kitchen staff for failing to coordinate the color of his foraged Sicillian truffles to the plate they were served on. In Tokyo he dedicated an entire weekend to meticulously deconstructing every menu item at Kabi Lounge.<br><br>He maintains a strict and well managed regime of nutrient consumption to ensure a sufficient calorie intake, and thus avoid \"base needs.\" As such he has never actually tasted any of the food he has so meticulously critiqued."
+			}
+		},
+		"00C97E46E53547D0": {
+			"english": {
+				"217C45A6": "as an Engineer",
+				"49777F75": "as a Cook",
+				"151742A4": "as a Metalworker",
+				"2488813D": "as Militia Member",
+				"3B63C7EE": "as a Pirate"
+			},
+			"italian": {
+				"217C45A6": "come tecnico",
+				"49777F75": "come cuoco",
+				"151742A4": "come operaio metalmeccanico",
+				"2488813D": "come membro della milizia",
+				"3B63C7EE": "come pirata"
+			},
+			"german": {
+				"217C45A6": "als Ingenieur",
+				"49777F75": "als Koch",
+				"151742A4": "als Metallarbeiter",
+				"2488813D": "als Miliz-Mitglied",
+				"3B63C7EE": "als Pirat"
+			},
+			"spanish": {
+				"217C45A6": "de ingeniero",
+				"49777F75": "de cocinero",
+				"151742A4": "de obrero metalúrgico",
+				"2488813D": "de miembro de la milicia",
+				"3B63C7EE": "de pirata"
+			},
+			"russian": {
+				"217C45A6": "под видом инженера",
+				"49777F75": "под видом повара",
+				"151742A4": "под видом рабочего по металлу",
+				"2488813D": "под видом боевика",
+				"3B63C7EE": "под видом пирата"
 			}
 		},
 		"00CA2B4B38BDC8B0": {
@@ -96,9 +218,65 @@
 				"2944546513": "Доброе утро, 47-й.<br><br>Твоя цель — одиозный серийный убийца по прозвищу Критик. Как тонкий ценитель театра, Критик «оценивает» своих жертв по тому, насколько отважно они сопротивляются перед смертью.<br><br>К сожалению, мы не знаем, кто скрывается под этим прозвищем, но, вероятнее всего, он сейчас охотится в Уиттлтон-Крике, штат Вермонт, — там были найдены две его последние жертвы.<br><br>Второго такого шанса устранить Критика у нас не будет, 47-й. Найди Критика и сделай всё возможное, чтобы он больше никого не критиковал.<br><br>Желаю удачи."
 			}
 		},
+		"00D73433F501F41C": {
+			"english": {
+				"2145412119": "not as Club Owner",
+				"3269692073": "as Club Owner"
+			},
+			"french": {
+				"2145412119": "pas en tant que gérant du club",
+				"3269692073": "en tant que gérant du club"
+			},
+			"italian": {
+				"2145412119": "non come proprietario del club",
+				"3269692073": "come proprietario del club"
+			},
+			"spanish": {
+				"2145412119": "no como dueño del club",
+				"3269692073": "como dueño del club"
+			},
+			"russian": {
+				"2145412119": "не под видом владельца клуба",
+				"3269692073": "под видом владельца клуба"
+			}
+		},
 		"00DC202021F89A51": {
 			"english": {
 				"634477522": "<li>Complete \"Explosions Run Loose\"</li><li>Eliminate all guards on the train during the Untouchable mission in the Carpathian Mountains, Romania</li><li>End it all by taking a trip down memory lane</li>"
+			}
+		},
+		"00E4A105055DA583": {
+			"english": {
+				"1115277412": "as a Doctor",
+				"1313140657": "as a Snorkel Instructor",
+				"2582681784": "as a Personal Trainer",
+				"3120711949": "as Villa Staff",
+				"3982036702": "as a Waiter",
+				"4282300224": "as Resort Staff"
+			},
+			"italian": {
+				"1115277412": "come dottore",
+				"1313140657": "come istruttore di snorkeling",
+				"2582681784": "come personal trainer",
+				"3120711949": "come membro del personale della villa",
+				"3982036702": "come cameriere",
+				"4282300224": "come membro del personale del resort"
+			},
+			"spanish": {
+				"1115277412": "de médico",
+				"1313140657": "de instructor de snorkel",
+				"2582681784": "de entrenador personal",
+				"3120711949": "de personal de la villa",
+				"3982036702": "de camarero",
+				"4282300224": "de personal del complejo"
+			},
+			"russian": {
+				"1115277412": "под видом врача",
+				"1313140657": "под видом инструктора по дайвингу с трубкой",
+				"2582681784": "под видом персонального тренера",
+				"3120711949": "под видом обслуги виллы",
+				"3982036702": "под видом официанта",
+				"4282300224": "под видом сотрудника комплекса"
 			}
 		},
 		"00E8D1F727A21C56": {
@@ -109,6 +287,43 @@
 		"00F3D25FC3719890": {
 			"english": {
 				"1490854150": "Born in the early 1980s, Alexios Laskaridis' childhood was heavily influenced by the electronic music scene maturing alongside him. He spent his youth on the move with his family -- both of his parents being touring theater actors -- but he was always able to turn to the world of music to keep him anchored. It was a lifestyle that lead him easily into his own role on stage. In Laskaridis' case, it was the DJ booth specifically that called to him. This career kept him flexible. He was comfortable moving on with the seasons, going where the crowds (and the work) were, and never laying roots down too deeply. It worked for the most part,  but in those gaps and hollows when it didn’t quite come together there was always a little bit of illicit work to be found nearby. Drug trafficking helped Laskaridis make ends meet, but he swore he would give it up once he'd built more of a following, or once he’d bought a club of his own. <br><br>It was a jealous up-and-comer from a privileged family who threw a wrench in these admittedly naive plans. Money was exchanged, and not long after, Laskaridis' hand was crushed under a poorly-secured piece of stage decor. Although he would eventually make a full recovery, it came with a significant amount of downtime in his budding career. Nevertheless the bills had to be paid. While his skills as a performer risked atrophy, his connections and criminal talents were honed. When he made his inevitable comeback, many agreed that he wasn't quite the same. His hand seemed perfectly fine, but the experience had hardened him. He was laser-focused now – but on what is anyone's guess. Clarity only came when the man who had arranged his accident (an open secret in their tight social circle) disappeared, leaving behind only a single foot in a brand new sneaker on the side of the highway. <br><br>Laskaridis' face became a less common sight on stage after that. The underworld had given him power where his music had failed to. His alliance shifted accordingly, and he made it his mission to dominate the scene in a manner where he knew he could seize the upper hand."
+			}
+		},
+		"00FCD96A98C04927": {
+			"english": {
+				"1384649177": "as a Fired Banker",
+				"1647041992": "as a Janitor",
+				"2076817645": "as a Bank Teller",
+				"2269581433": "as an Investment Banker",
+				"4099960753": "as a Job Applicant"
+			},
+			"italian": {
+				"1384649177": "come banchiere licenziato",
+				"1647041992": "come custode",
+				"2076817645": "come cassiere",
+				"2269581433": "come investitore",
+				"4099960753": "come candidato"
+			},
+			"german": {
+				"1384649177": "als entlassener Banker",
+				"1647041992": "als Hausmeister",
+				"2076817645": "als Kassierer",
+				"2269581433": "als Investmentbanker",
+				"4099960753": "als Jobbewerber"
+			},
+			"spanish": {
+				"1384649177": "como banquero despedido",
+				"1647041992": "como conserje",
+				"2076817645": "como cajero",
+				"2269581433": "como banquero de inversiones",
+				"4099960753": "como aspirante"
+			},
+			"russian": {
+				"1384649177": "как уволенный работник",
+				"1647041992": "как уборщик",
+				"2076817645": "как операционист",
+				"2269581433": "как специалист по инвестициям",
+				"4099960753": "как кандидат"
 			}
 		}
 	}
