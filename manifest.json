@@ -86,6 +86,23 @@
 				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
 			}
 		},
+		"005AF40D2074E112": {
+			"english": {
+				"4124322807": "Hack Data Core [Optional]"
+			},
+			"french": {
+				"4124322807": "Piratez le cœur de données [Optionnel]"
+			},
+			"italian": {
+				"4124322807": "Viola il sistema centrale dati [Opzionale]"
+			},
+			"spanish": {
+				"4124322807": "Piratea el núcleo de datos [Opcional]"
+			},
+			"russian": {
+				"4124322807": "Взломайте серверный накопитель [Дополнительно]"
+			}
+		},
 		"005B75C20E23402F": {
 			"english": {
 				"638095483": "The young Dame Barbara Keating, née Johnson, was from a modest working-class English background. Her father was a waiter at an expensive restaurant and unlike the rest of the fathers in their neighborhood, who wore overalls and worked on a factory line, Samuel Johnson left to work in a white shirt and a tuxedo. Seeing her father dressed up every morning and her mother’s glowing eyes as she served him his breakfast and brought him the paper was a source of pride to young Barbara. They may not have been better off than anybody else on the block - in fact they often struggled due to her father's heavy drinking - but in her esteem, they were still different.<br>Barbara was a stunning beauty, and at the age of 18 she caught the eye of a visiting businessman, Robert Keating, who was 25 years older than her and based halfway around the world in New Zealand. They married a few years later and when Keating had a heart attack in bed, Barbara sidelined Keating’s family and took control of her late husband's business interests. A tough and ruthless businesswoman, Barbara Keating built an empire, often leaving a fair bit of wreckage in her slipstream.<br>Much later, she made a foray into politics and was eventually appointed Minister of Trade and Foreign Affairs in her adopted homeland, before being given the honorary title Dame Barbara by the queen.<br>At the height of her powers, however, the newly-minted Dame became engulfed in a scandal and was forced to step down from her post. A charity she represented benifitting the homeless was found to have funneled donations into Dame Barbara’s own offshore holdings. To minimize the damage to herself, she drew on tabloid contacts and orchestrated an elaborate smear campaign against the director of the charity, a renowned but fragile poet and social organizer by the name of Jacqueline Vicar. The director was depicted as a blackmailer and conspirator, who aimed to entrap Dame Barbara in a scheme to pay off the mounting costs of Vicar's own private vices. Shortly thereafter, the director was involved in a conspicuously timed car accident, officially (and publicly) considered a suicide.<br>Now a somewhat more paranoid (and significantly more cautious) Dame Barbara is preparing for her political comeback, with help from an uncanny body double."
@@ -119,6 +136,26 @@
 			},
 			"spanish": {
 				"2736038867": "<li>Completa «El autor».</li><li>Asesina a los objetivos con un rifle de francotirador.</li><li>Elimina solo a los objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
+			}
+		},
+		"0094D363985DA031": {
+			"english": {
+				"1766502356": "Help Lucas Grey extract The Constant [Optional]"
+			},
+			"french": {
+				"1766502356": "Aidez Lucas Grey à enlever le Constant [Secondaire]"
+			},
+			"italian": {
+				"1766502356": "Aiuta Lucas Grey a rapire la Costante [Facoltativo]"
+			},
+			"german": {
+				"1766502356": "Helfen Sie Lucas Grey, die Konstante zu entführen [Optional]"
+			},
+			"spanish": {
+				"1766502356": "Ayuda a Lucas Grey a secuestrar al Constante [Opcional]"
+			},
+			"russian": {
+				"1766502356": "Помогите Лукасу Грею похитить Константу [Дополнительно]"
 			}
 		},
 		"00C4FB89CD2F7B77": {
