@@ -182,7 +182,7 @@ jobs:
               with:
                   filename: mod.framework.zip
                   path: ${{ steps.modID.outputs.prop }}
-                  exclusions: ".afphoto .afpub .afdesign .aftemplate .kra .psd .psp .svg .xcf"
+                  exclusions: "**/*.afphoto **/*.afpub **/*.afdesign **/*.aftemplate **/*.kra **/*.psd **/*.psp **/*.svg **/*.xcf"
 
             - name: Create updates.json
               if: ${{ steps.newVersion.outputs.new-release-version }}
