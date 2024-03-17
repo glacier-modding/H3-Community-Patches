@@ -1,0 +1,39 @@
+{
+	"tempHash": "00D0269DACF6A0DE",
+	"tbluHash": "00443A0BB3AE066D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"cb6c86e392be8985",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["187d6880427cff03", "cafec0d3fdb9e1a4"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec0d3fdb9e1a4",
+				{
+					"parent": "cb6c86e392be8985",
+					"name": "Part_Headset",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_technician/geometry/male_reg_militia_technician.wl2?/headsset.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

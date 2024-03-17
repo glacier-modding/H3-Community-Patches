@@ -1,0 +1,21 @@
+{
+	"tempHash": "005690A2C90C9A00",
+	"tbluHash": "00C991578D59D25E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"37c786bb285ff612",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/pants.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

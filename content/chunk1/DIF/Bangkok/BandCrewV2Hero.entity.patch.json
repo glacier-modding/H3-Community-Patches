@@ -1,0 +1,36 @@
+{
+	"tempHash": "0051882615EEF070",
+	"tbluHash": "009BB6BC8764BC55",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"58d9333377f79a7e",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["dcc5875a4ec146d6", "cafef9be2d9ea767"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef9be2d9ea767",
+				{
+					"parent": "58d9333377f79a7e",
+					"name": "Mesh_Glasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00E894E0AEFAF647", "flag": "5F" }
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

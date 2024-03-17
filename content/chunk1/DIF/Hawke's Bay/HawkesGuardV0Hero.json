@@ -1,0 +1,34 @@
+{
+	"tempHash": "000806922A18B55B",
+	"tbluHash": "009F4F1C8C759D44",
+	"patch": [
+		{
+			"AddEntity": [
+				"feeda1a203f8553f",
+				{
+					"parent": "571e8c4b5f1d386d",
+					"name": "hat_cap_flat",
+					"factory": "001D4B7414196D32",
+					"blueprint": "004F543C7676FBC0",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": -89.98082470599687, "y": 89.83954345158888, "z": -103.68743111217128 },
+								"position": { "x": 0.07813899964094162, "y": 0.019726000726222992, "z": 0 }
+							}
+						},
+						"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#a39e9b" },
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 1.0199999809265137, "y": 1.0299999713897705, "z": 1 }
+						},
+						"m_rLinkedProxyEntity": { "type": "SEntityTemplateReference", "value": "36e389253d56ff53" },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "571e8c4b5f1d386d", "postInit": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
