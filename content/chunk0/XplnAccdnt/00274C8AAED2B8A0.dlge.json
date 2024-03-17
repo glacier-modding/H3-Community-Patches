@@ -1,0 +1,29 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/stuyvesant/inca_xplnaccdnt_stuyvesant.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_stuyvesant_stuyvesant_001",
+				"weight": 0.5,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/stuyvesant/inca_xplnaccdnt_stuyvesant_stuyvesant_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/stuyvesant/inca_xplnaccdnt_stuyvesant_stuyvesant_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_stuyvesant_stuyvesant_002",
+				"weight": 0.5,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/stuyvesant/inca_xplnaccdnt_stuyvesant_stuyvesant_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/stuyvesant/inca_xplnaccdnt_stuyvesant_stuyvesant_002.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}
