@@ -1,14 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.21.0",
+	"version": "0.22.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assassination). This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
 	"authors": ["Fill in later with names of all contributers"],
 	"contentFolders": ["content"],
-	"frameworkVersion": "2.33.7",
+	"blobsFolders": ["blobs"],
+	"frameworkVersion": "2.33.8",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
-	"dependencies": ["00954F2A467328E9"],
 	"localisationOverrides": {
 		"0005BE61D5257592": {
 			"english": {
@@ -129,11 +129,6 @@
 			"spanish": {
 				"2380515275": "<li>Completa «Mayoría absoluta».</li><li>Elimina solo al objetivo.</li><li>Que no descubran cuerpos.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>",
 				"3103369177": "<li>Completa «Mayoría absoluta».</li><li>Asesina al objetivo con un rifle de francotirador.</li><li>Elimina solo al objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
-			}
-		},
-		"0079B380B37AEAF1": {
-			"english": {
-				"544576858": "Mission Story - A Rare Scoop"
 			}
 		},
 		"007EFEA46EF94D6F": {
