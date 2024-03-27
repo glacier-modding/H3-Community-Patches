@@ -1,0 +1,129 @@
+{
+	"tempHash": "00F84465C5960E4B",
+	"tbluHash": "000468209FECFCEE",
+	"patch": [
+		{
+			"RemoveEntityByID": "c3f3de4004f253a1"
+		},
+		{
+			"RemoveEntityByID": "2c631aa521daeabe"
+		},
+		{
+			"RemoveEntityByID": "09a56f7d10ad0977"
+		},
+		{
+			"RemoveEntityByID": "115fe111d22f8fba"
+		},
+		{
+			"RemoveEntityByID": "ce4db9dc2229381b"
+		},
+		{
+			"RemoveEntityByID": "284aba41c67134f0"
+		},
+		{
+			"RemoveEntityByID": "5ec11cf830d9d4ff"
+		},
+		{
+			"RemoveEntityByID": "9c3e651586b0cce3"
+		},
+		{
+			"RemoveEntityByID": "3c8b27f8c0ba68ec"
+		},
+		{
+			"RemoveEntityByID": "036ab0ff48dd6b9a"
+		},
+		{
+			"RemoveEntityByID": "e6216f0a18a080b1"
+		},
+		{
+			"RemoveEntityByID": "8e14744e68e12f5e"
+		},
+		{
+			"RemoveEntityByID": "ffc3428c4ec9fe70"
+		},
+		{
+			"RemoveEntityByID": "a124274ac8354a82"
+		},
+		{
+			"RemoveEntityByID": "e5e6cc4d9da83a65"
+		},
+		{
+			"RemoveEntityByID": "72be8ffdffe53838"
+		},
+		{
+			"RemoveEntityByID": "399ee742f5dfba3a"
+		},
+		{
+			"AddEntity": [
+				"cafed6905ad709b7",
+				{
+					"parent": "19a349a6a7f0c4a9",
+					"name": "Movie_Set_Lamp_Interactive",
+					"factory": "[assembly:/_pro/scenes/missions/coastaltown/templates-mission_copperhead/copperhead_common.template?/movie_set_lamp_interactive.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/scenes/missions/coastaltown/templates-mission_copperhead/copperhead_common.template?/movie_set_lamp_interactive.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": 85.74809371543721
+								},
+								"position": {
+									"x": -0.005566332023590803,
+									"y": -0.02795824036002159,
+									"z": -0.7442489862442017
+								},
+								"scale": {
+									"x": 1.0000003125573542,
+									"y": 1.0000003125573542,
+									"z": 1.0
+								}
+							}
+						},
+						"m_vAngularAttenuation": {
+							"type": "SVector2",
+							"value": {
+								"x": 0.30000001192092896,
+								"y": 0.7808470129966736
+							}
+						},
+						"On": {
+							"type": "bool",
+							"value": true
+						},
+						"DiffusePower": {
+							"type": "float32",
+							"value": 6.0
+						},
+						"GlowPower": {
+							"type": "float32",
+							"value": 20.0
+						},
+						"LightCastShadows": {
+							"type": "bool",
+							"value": true
+						},
+						"m_vFarAttenuation": {
+							"type": "SVector2",
+							"value": {
+								"x": 1.0,
+								"y": 7.389999866485596
+							}
+						},
+						"DiffuseColor": {
+							"type": "SColorRGB",
+							"value": "#c2deff"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "19a349a6a7f0c4a9"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,22 @@
+{
+	"hash_value": "000B98917F6FD6DB",
+	"hash_path": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].entitytype,[modules:/zlightsaveaspect.class].entitytype).pc_entityblueprint",
+	"hash_offset": 7558800,
+	"hash_size": 2147483648,
+	"hash_resource_type": "ASEB",
+	"hash_reference_table_size": 22,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 8,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "[assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].pc_entityblueprint",
+			"flag": "1F"
+		},
+		{
+			"hash": "[modules:/zlightsaveaspect.class].pc_entityblueprint",
+			"flag": "1F"
+		}
+	]
+}
