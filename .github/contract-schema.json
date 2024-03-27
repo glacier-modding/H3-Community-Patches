@@ -1,0 +1,1074 @@
+{
+	"credit": "Auto-generated from Peacock types; everything made nullable",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"definitions": {
+		"GameChanger": {
+			"properties": {
+				"Description": {
+					"type": "string",
+					"nullable": true
+				},
+				"Icon": {
+					"type": "string",
+					"nullable": true
+				},
+				"Id": {
+					"type": "string",
+					"nullable": true
+				},
+				"IsHidden": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"IsPrestigeObjective": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"LongDescription": {
+					"type": "string",
+					"nullable": true
+				},
+				"Name": {
+					"type": "string",
+					"nullable": true
+				},
+				"Objectives": {
+					"items": {
+						"$ref": "#/definitions/MissionManifestObjective"
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"ObjectivesCategory": {
+					"type": "string",
+					"nullable": true
+				},
+				"Resource": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"TileImage": {
+					"type": "string",
+					"nullable": true
+				}
+			},
+			"required": ["Description", "Id", "Name"],
+			"type": "object",
+			"nullable": true
+		},
+		"GroupObjectiveDisplayOrderItem": {
+			"properties": {
+				"Id": {
+					"type": "string",
+					"nullable": true
+				},
+				"IsNew": {
+					"type": "boolean",
+					"nullable": true
+				}
+			},
+			"required": ["Id"],
+			"type": "object",
+			"nullable": true
+		},
+		"HUDTemplate": {
+			"description": "Data structure for an objective's HUD template.",
+			"properties": {
+				"display": {
+					"anyOf": [
+						{
+							"properties": {
+								"$loc": {
+									"properties": {
+										"data": {
+											"type": "string",
+											"nullable": true
+										},
+										"key": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"required": ["data", "key"],
+									"type": "object",
+									"nullable": true
+								}
+							},
+							"required": ["$loc"],
+							"type": "object",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"iconType": {
+					"type": "number",
+					"nullable": true
+				}
+			},
+			"required": ["display"],
+			"type": "object",
+			"nullable": true
+		},
+		"MissionManifestMetadata": {
+			"properties": {
+				"AllowNonTargetKills": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"BriefingVideo": {
+					"anyOf": [
+						{
+							"items": {
+								"properties": {
+									"Mode": {
+										"type": "string",
+										"nullable": true
+									},
+									"VideoId": {
+										"type": "string",
+										"nullable": true
+									}
+								},
+								"required": ["Mode", "VideoId"],
+								"type": "object",
+								"nullable": true
+							},
+							"type": "array",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"CharacterLoadoutData": {},
+				"CharacterSetup": {
+					"items": {
+						"properties": {
+							"Characters": {
+								"items": [
+									{
+										"properties": {
+											"Id": {
+												"type": "string",
+												"nullable": true
+											},
+											"MandatoryLoadout": {
+												"items": {
+													"type": "string",
+													"nullable": true
+												},
+												"type": "array",
+												"nullable": true
+											},
+											"Name": {
+												"type": "string",
+												"nullable": true
+											}
+										},
+										"required": ["Id", "Name"],
+										"type": "object",
+										"nullable": true
+									}
+								],
+								"type": "array",
+								"nullable": true
+							},
+							"Mode": {
+								"type": "string",
+								"nullable": true
+							}
+						},
+						"required": ["Characters", "Mode"],
+						"type": "object",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"CodeName_Hint": {
+					"type": "string",
+					"nullable": true
+				},
+				"CpdId": {
+					"type": "string",
+					"nullable": true
+				},
+				"CreationTimestamp": {
+					"type": "string",
+					"nullable": true
+				},
+				"CreatorUserId": {
+					"type": "string",
+					"nullable": true
+				},
+				"DebriefingVideo": {
+					"type": "string",
+					"nullable": true
+				},
+				"Description": {
+					"type": "string",
+					"nullable": true
+				},
+				"Difficulty": {
+					"type": "string",
+					"nullable": true
+				},
+				"Drops": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"EndConditions": {
+					"properties": {
+						"PointLimit": {
+							"type": "number",
+							"nullable": true
+						}
+					},
+					"type": "object",
+					"nullable": true
+				},
+				"Enginemodes": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"Entitlements": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GameVersion": {
+					"type": "string",
+					"nullable": true
+				},
+				"Gamemodes": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GroupDefinition": {
+					"description": "Data for a group contract.",
+					"properties": {
+						"Order": {
+							"description": "The contracts in this group, ordered by their position in the group.",
+							"items": {
+								"type": "string",
+								"nullable": true
+							},
+							"type": "array",
+							"nullable": true
+						},
+						"Type": {
+							"$ref": "#/definitions/MissionType",
+							"description": "The contract group type."
+						}
+					},
+					"required": ["Order", "Type"],
+					"type": "object",
+					"nullable": true
+				},
+				"GroupObjectiveDisplayOrder": {
+					"items": {
+						"$ref": "#/definitions/GroupObjectiveDisplayOrderItem"
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GroupTitle": {
+					"type": "string",
+					"nullable": true
+				},
+				"Id": {
+					"type": "string",
+					"nullable": true
+				},
+				"InGroup": {
+					"type": "string",
+					"nullable": true
+				},
+				"IsEvergreenSafehouse": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"IsFeatured": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"IsPublished": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"IsVersus": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"LastUpdate": {
+					"type": "string",
+					"nullable": true
+				},
+				"Location": {
+					"type": "string",
+					"nullable": true
+				},
+				"NonTargetKillPenaltyEnabled": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"NoticedTargetStreakPenaltyMax": {
+					"type": "number",
+					"nullable": true
+				},
+				"Opportunities": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"PublicId": {
+					"type": "string",
+					"nullable": true
+				},
+				"Release": {
+					"anyOf": [
+						{
+							"additionalProperties": true,
+							"properties": {},
+							"type": "object",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"RequiredUnlockable": {
+					"type": "string",
+					"nullable": true
+				},
+				"ScenePath": {
+					"type": "string",
+					"nullable": true
+				},
+				"ServerVersion": {
+					"type": "string",
+					"nullable": true
+				},
+				"SpawnSelectionType": {
+					"type": "string",
+					"nullable": true
+				},
+				"Subtype": {
+					"type": "string",
+					"nullable": true
+				},
+				"TargetExpiration": {
+					"type": "number",
+					"nullable": true
+				},
+				"TargetExpirationReduced": {
+					"type": "number",
+					"nullable": true
+				},
+				"TargetLifeTime": {
+					"type": "number",
+					"nullable": true
+				},
+				"TileImage": {
+					"anyOf": [
+						{
+							"items": {
+								"properties": {
+									"Image": {
+										"type": "string",
+										"nullable": true
+									},
+									"Mode": {
+										"type": "string",
+										"nullable": true
+									}
+								},
+								"required": ["Image", "Mode"],
+								"type": "object",
+								"nullable": true
+							},
+							"type": "array",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"Title": {
+					"type": "string",
+					"nullable": true
+				},
+				"Type": {
+					"$ref": "#/definitions/MissionType"
+				},
+				"UseContractProgressionData": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"UserData": {
+					"description": "Useless property."
+				}
+			},
+			"required": ["Id", "Location", "ScenePath", "Title", "Type"],
+			"type": "object",
+			"nullable": true
+		},
+		"MissionManifestObjective": {
+			"properties": {
+				"Activation": {
+					"properties": {
+						"$eq": {
+							"items": {
+								"type": ["string", "boolean"]
+							},
+							"type": "array",
+							"nullable": true
+						}
+					},
+					"type": "object",
+					"nullable": true
+				},
+				"AllowEtRestartOnSuccess": {
+					"description": "Allow Elusive Target Arcade contracts to be restarted if this objective is already successfully completed.",
+					"type": "boolean",
+					"nullable": true
+				},
+				"BriefingName": {
+					"type": "string",
+					"nullable": true
+				},
+				"BriefingText": {
+					"anyOf": [
+						{
+							"properties": {
+								"$loc": {
+									"properties": {
+										"data": {
+											"anyOf": [
+												{
+													"items": {
+														"type": "number",
+														"nullable": true
+													},
+													"type": "array",
+													"nullable": true
+												},
+												{
+													"type": "string",
+													"nullable": true
+												}
+											]
+										},
+										"key": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"required": ["data", "key"],
+									"type": "object",
+									"nullable": true
+								}
+							},
+							"required": ["$loc"],
+							"type": "object",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"Category": {
+					"type": "string",
+					"nullable": true
+				},
+				"CombinedDisplayInHud": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"Definition": {
+					"properties": {
+						"Constants": {
+							"$ref": "#/definitions/Record<string,unknown>"
+						},
+						"Context": {
+							"$ref": "#/definitions/Record<string,unknown>"
+						},
+						"ContextListeners": {
+							"$ref": "#/definitions/Record<string,IContextListener<any>>"
+						},
+						"Scope": {
+							"type": "string",
+							"nullable": true
+						},
+						"States": {
+							"$ref": "#/definitions/Record<string,unknown>"
+						},
+						"display": {
+							"properties": {
+								"iconType": {
+									"type": "number",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						}
+					},
+					"type": "object",
+					"nullable": true
+				},
+				"DisplayAsKillObjective": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"ExcludeFromScoring": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"FailedEvent": {
+					"properties": {
+						"EventName": {
+							"type": "string",
+							"nullable": true
+						},
+						"EventValues": {
+							"properties": {
+								"RepositoryId": {
+									"description": "A repository ID (really just a UUID v4).",
+									"type": "string",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						}
+					},
+					"required": ["EventName"],
+					"type": "object",
+					"nullable": true
+				},
+				"ForceShowOnLoadingScreen": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"GameChangerName": {
+					"type": "string",
+					"nullable": true
+				},
+				"HUDTemplate": {
+					"$ref": "#/definitions/HUDTemplate"
+				},
+				"Id": {
+					"type": "string",
+					"nullable": true
+				},
+				"IgnoreIfInactive": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"Image": {
+					"type": "string",
+					"nullable": true
+				},
+				"IsHidden": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"IsPrestigeObjective": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"LongBriefingText": {
+					"anyOf": [
+						{
+							"properties": {
+								"$loc": {
+									"properties": {
+										"data": {
+											"anyOf": [
+												{
+													"items": {
+														"type": "number",
+														"nullable": true
+													},
+													"type": "array",
+													"nullable": true
+												},
+												{
+													"type": "string",
+													"nullable": true
+												}
+											]
+										},
+										"key": {
+											"type": "string",
+											"nullable": true
+										}
+									},
+									"required": ["data", "key"],
+									"type": "object",
+									"nullable": true
+								}
+							},
+							"required": ["$loc"],
+							"type": "object",
+							"nullable": true
+						},
+						{
+							"type": "string",
+							"nullable": true
+						}
+					]
+				},
+				"ObjectiveType": {
+					"type": "string",
+					"nullable": true
+				},
+				"OnActive": {
+					"properties": {
+						"IfCompleted": {
+							"properties": {
+								"State": {
+									"type": "string",
+									"nullable": true
+								},
+								"Visible": {
+									"type": "boolean",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						},
+						"IfFailed": {
+							"properties": {
+								"State": {
+									"type": "string",
+									"nullable": true
+								},
+								"Visible": {
+									"type": "boolean",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						},
+						"IfInProgress": {
+							"properties": {
+								"State": {
+									"type": "string",
+									"nullable": true
+								},
+								"Visible": {
+									"type": "boolean",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						}
+					},
+					"type": "object",
+					"nullable": true
+				},
+				"OnInactive": {
+					"properties": {
+						"IfCompleted": {
+							"properties": {
+								"State": {
+									"type": "string",
+									"nullable": true
+								}
+							},
+							"type": "object",
+							"nullable": true
+						}
+					},
+					"type": "object",
+					"nullable": true
+				},
+				"Primary": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"Scope": {
+					"type": "string",
+					"nullable": true
+				},
+				"ShowInHud": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"SuccessEvent": {
+					"properties": {
+						"EventName": {
+							"type": "string",
+							"nullable": true
+						},
+						"EventValues": {
+							"properties": {
+								"RepositoryId": {
+									"description": "A repository ID (really just a UUID v4).",
+									"type": "string",
+									"nullable": true
+								}
+							},
+							"required": ["RepositoryId"],
+							"type": "object",
+							"nullable": true
+						}
+					},
+					"required": ["EventName", "EventValues"],
+					"type": "object",
+					"nullable": true
+				},
+				"TargetConditions": {
+					"items": {
+						"$ref": "#/definitions/TargetCondition"
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"Type": {
+					"type": "string",
+					"nullable": true
+				},
+				"_comment": {
+					"type": "string",
+					"nullable": true
+				}
+			},
+			"required": ["Id"],
+			"type": "object",
+			"nullable": true
+		},
+		"MissionType": {
+			"description": "Possible mission `Metadata.Type` values.",
+			"type": "string",
+			"nullable": true
+		},
+		"Record<string,IContextListener<any>>": {
+			"type": "object",
+			"nullable": true
+		},
+		"Record<string,any>": {
+			"type": "object",
+			"nullable": true
+		},
+		"Record<string,unknown>": {
+			"type": "object",
+			"nullable": true
+		},
+		"TargetCondition": {
+			"properties": {
+				"HardCondition": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"KillMethod": {
+					"type": "string",
+					"nullable": true
+				},
+				"ObjectiveId": {
+					"type": "string",
+					"nullable": true
+				},
+				"RepositoryId": {
+					"description": "A repository ID (really just a UUID v4).",
+					"type": "string",
+					"nullable": true
+				},
+				"Type": {
+					"type": "string",
+					"nullable": true
+				}
+			},
+			"required": ["Type"],
+			"type": "object",
+			"nullable": true
+		},
+		"VRQualityDefinition": {
+			"description": "Data structure for a contract's `Data.VR` bricks property.",
+			"properties": {
+				"Bricks": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"Quality": {
+					"type": "string",
+					"nullable": true
+				}
+			},
+			"required": ["Bricks", "Quality"],
+			"type": "object",
+			"nullable": true
+		}
+	},
+	"description": "A contract JSON is what defines how a specific contract plays.",
+	"properties": {
+		"Data": {
+			"properties": {
+				"Bricks": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"DevOnlyBricks": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"EnableExits": {},
+				"EnableSaving": {
+					"type": "boolean",
+					"nullable": true
+				},
+				"EngineModesBricks": {
+					"items": {},
+					"type": "array",
+					"nullable": true
+				},
+				"Entrances": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GameChangerReferences": {
+					"items": {
+						"$ref": "#/definitions/GameChanger"
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GameChangers": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GameDifficulties": {
+					"items": {
+						"properties": {
+							"Bricks": {
+								"items": {
+									"type": "string",
+									"nullable": true
+								},
+								"type": "array",
+								"nullable": true
+							},
+							"Difficulty": {
+								"type": "string",
+								"nullable": true
+							}
+						},
+						"required": ["Bricks", "Difficulty"],
+						"type": "object",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"GameModesBricks": {
+					"items": {},
+					"type": "array",
+					"nullable": true
+				},
+				"MandatoryLoadout": {
+					"items": {},
+					"type": "array",
+					"nullable": true
+				},
+				"Objectives": {
+					"items": {
+						"$ref": "#/definitions/MissionManifestObjective"
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"RecommendedLoadout": {
+					"items": {},
+					"type": "array",
+					"nullable": true
+				},
+				"Stashpoints": {
+					"items": {
+						"type": "string",
+						"nullable": true
+					},
+					"type": "array",
+					"nullable": true
+				},
+				"VR": {
+					"items": {
+						"$ref": "#/definitions/VRQualityDefinition"
+					},
+					"type": "array",
+					"nullable": true
+				}
+			},
+			"required": ["Bricks"],
+			"type": "object",
+			"nullable": true
+		},
+		"Metadata": {
+			"$ref": "#/definitions/MissionManifestMetadata"
+		},
+		"Peacock": {
+			"properties": {
+				"noAgencyPickupsActive": {
+					"type": "boolean"
+				},
+				"noCarriedWeapon": {
+					"type": "boolean"
+				},
+				"noGear": {
+					"type": "boolean"
+				}
+			},
+			"type": "object"
+		},
+		"UserData": {
+			"anyOf": [
+				{
+					"items": {},
+					"type": "array",
+					"nullable": true
+				},
+				{
+					"$ref": "#/definitions/Record<string,any>"
+				},
+				{
+					"type": "null"
+				}
+			]
+		},
+		"SMF": {
+			"properties": {
+				"destinations": {
+					"anyOf": [
+						{
+							"type": "object",
+							"properties": {
+								"addToDestinations": {
+									"type": "boolean",
+									"description": "Whether to add the contract to Destinations."
+								}
+							},
+							"additionalProperties": false
+						},
+						{
+							"type": "object",
+							"properties": {
+								"addToDestinations": {
+									"type": "boolean",
+									"const": true,
+									"description": "Whether to add the contract to Destinations."
+								},
+								"narrativeContext": {
+									"type": "string",
+									"description": "The narrative context of the contract. In the base game, this is either Mission or Campaign."
+								}
+							},
+							"additionalProperties": false
+						},
+						{
+							"type": "object",
+							"properties": {
+								"addToDestinations": {
+									"type": "boolean",
+									"const": true,
+									"description": "Whether to add the contract to Destinations."
+								},
+								"narrativeContext": {
+									"type": "string",
+									"description": "The narrative context of the contract. In the base game, this is either Mission or Campaign."
+								},
+								"placeBefore": {
+									"type": "string",
+									"description": "The UUID of the contract this one should be placed before."
+								}
+							},
+							"additionalProperties": false
+						},
+						{
+							"type": "object",
+							"properties": {
+								"addToDestinations": {
+									"type": "boolean",
+									"const": true,
+									"description": "Whether to add the contract to Destinations."
+								},
+								"narrativeContext": {
+									"type": "string",
+									"description": "The narrative context of the contract. In the base game, this is either Mission or Campaign."
+								},
+								"placeAfter": {
+									"type": "string",
+									"description": "The UUID of the contract this one should be placed after."
+								}
+							},
+							"additionalProperties": false
+						}
+					],
+					"description": "How the contract should behave in relation to the Destinations page."
+				}
+			},
+			"description": "Simple Mod Framework-specific contract metadata.",
+			"type": "object"
+		}
+	},
+	"required": ["Data", "Metadata"],
+	"type": "object",
+	"nullable": true
+}
