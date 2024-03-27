@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/rocky/dugong/46000_story/dr46065_crestruincheckin.sweetdialog?/dr46065_crestruincheckin_dugong_militiaguard_m07_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr46065_crestruincheckin_dugong_militiaguard_m07_006",
+		"soundtag": "In-world_Mission_Important",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/rocky/dugong/46000_story/dr46065_crestruincheckin_dugong_militiaguard_m07_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/rocky/dugong/46000_story/dr46065_crestruincheckin_dugong_militiaguard_m07_006.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Will do, sir.",
+			"fr": "//(0,30)\\\\Bien noté, monsieur.",
+			"it": "//(0,30)\\\\Certo, signore.",
+			"de": "//(0,30)\\\\Wird gemacht, Sir.",
+			"es": "//(0,30)\\\\Lo haré, señor.",
+			"ru": "//(0,30)\\\\Так точно, сэр.",
+			"cn": "//(0,30)\\\\好的，长官。",
+			"tc": "//(0,30)\\\\好的，長官。",
+			"jp": "//(0,30)\\\\承知しました。"
+		}
+	}
+}
