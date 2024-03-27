@@ -1,0 +1,61 @@
+{
+	"tempHash": "00C92C3D60DEB8E9",
+	"tbluHash": "002C438030CC4D5E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9784294b2116eaca",
+				{
+					"PatchArrayPropertyValue": [
+						"Clients",
+						[
+							{
+								"RemoveItemByValue": "fd2667a4520332f3"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a9bd2458bc6a7116",
+				{
+					"AddEventConnection": ["GlowPower", "ConstantVector1D_07_Value", "cafe55a0c28c7d10"]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe55a0c28c7d10",
+				{
+					"parent": "4e567be40ada2f59",
+					"name": "movie_set_lamp_d",
+					"factory": "[assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].pc_entityblueprint",
+					"properties": {
+						"ConstantColorRGB_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_07_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["fd2667a4520332f3"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null,
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
