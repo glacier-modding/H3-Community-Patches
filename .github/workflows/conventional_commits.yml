@@ -11,7 +11,7 @@ permissions:
     pull-requests: write
 
 jobs:
-    main:
+    lint_title:
         name: Validate PR title
         runs-on: ubuntu-latest
         steps:

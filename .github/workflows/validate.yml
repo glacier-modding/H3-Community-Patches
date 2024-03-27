@@ -3,7 +3,7 @@ name: Validate
 on: push
 
 jobs:
-    build:
+    validate_mod:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
