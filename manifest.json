@@ -5,7 +5,7 @@
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
 	"authors": ["Notex, Minnow, Atampy26, Jojje, Dribbleondo, musicalmushr00m"],
-	"contentFolders": ["content/SmallFixes content/MovieSetLamp"],
+	"contentFolders": ["content/SmallFixes"],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
