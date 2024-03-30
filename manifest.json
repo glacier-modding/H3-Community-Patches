@@ -5,12 +5,19 @@
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
 	"authors": ["Notex, Minnow, Atampy26, Jojje, Dribbleondo, musicalmushr00m"],
-	"contentFolders": [
-		"content/BuildingItalianDiffuse, content/ShoppingBagParent, content/DoctorSDEF, content/BoltVoiceline, content/SweaterGuyFiredHint, content/XplnAccdnt, content/SuitNormals, content/TerminusAI, content/SummerSuaveSunglasses, content/AkenawaHeadNormal, content/CrestRuinCheckIn, content/WhittletonBroadcastSync, content/HotelGuestVoice, content/MovieSetLamp"
-	],
+	"contentFolders": ["content/SmallFixes, content/WhittletonBroadcastSync"],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
+	"options": [
+		{
+			"name": "Don't Insult Accident Victims",
+			"tooltip": "In vanilla, NPCs will sometimes say things like \"somebody's doing stuff they shouldn't\" when reporting accidents. This changes that.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/XplnAccdnt"]
+		}
+	],
 	"localisationOverrides": {
 		"00CD5444B4C541F2": {
 			"german": {
