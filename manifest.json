@@ -39,7 +39,7 @@
 		},
 		{
 			"name": "Elusive Target Voice Fixes",
-			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the Patient Zero targets.",
+			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/ElusiveVoices"]
