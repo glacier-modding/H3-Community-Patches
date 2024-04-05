@@ -1,0 +1,24 @@
+{
+	"tempHash": "00174B7F78F90C07",
+	"tbluHash": "003502D5269F3415",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"bcde6fcb83e1b890",
+				{ "SetPropertyValue": { "property_name": "m_eRequiredVoiceVariation", "value": "eAVV_CIVFEM05" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5f143077f930c3bb",
+				{
+					"AddProperty": [
+						"m_eRequiredVoiceVariation",
+						{ "type": "EActorVoiceVariation", "value": "eAVV_BDYGRD06" }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
