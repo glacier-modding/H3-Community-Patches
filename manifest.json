@@ -43,6 +43,13 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/ElusiveVoices"]
+		},
+		{
+			"name": "Disguise Inconsistency Fixes (DIF)",
+			"tooltip": "Fixes various inconsistencies between outfits when worn by NPCs vs 47, e.g. 47 creating hats from nowhere when taking the clothes of hatless Hokkaido handymen.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/DIF"]
 		}
 	],
 	"localisationOverrides": {
