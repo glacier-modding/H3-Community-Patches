@@ -1,0 +1,13 @@
+{
+	"tempHash": "00EFFE23BA968693",
+	"tbluHash": "008ADD3CCFA5B56E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c8c9c64c6f4ba856",
+				{ "SetPropertyValue": { "property_name": "m_eRequiredVoiceVariation", "value": "eAVV_CIVMALE06" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

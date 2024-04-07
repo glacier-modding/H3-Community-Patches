@@ -1,0 +1,56 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/specops01/inca_xplnaccdnt_specops01.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_specops01_specops01_001",
+				"weight": 0.2,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_specops01_specops01_002",
+				"weight": 0.2,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_002.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_specops01_specops01_003",
+				"weight": 0.2,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_003.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_003.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_specops01_specops01_004",
+				"weight": 0.2,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_004.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_004.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_specops01_specops01_005",
+				"weight": 0.2,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_005.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/specops01/inca_xplnaccdnt_specops01_specops01_005.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

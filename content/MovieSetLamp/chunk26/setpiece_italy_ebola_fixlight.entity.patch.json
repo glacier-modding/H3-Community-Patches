@@ -1,0 +1,72 @@
+{
+	"tempHash": "00CCAA160BD1F830",
+	"tbluHash": "0034B8D647DB3156",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1a6534d4d242fa49",
+				{
+					"AddEventConnection": ["DiffuseColor", "ConstantColorRGB_01_Value", "cafeebed0c0b5166"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1a6534d4d242fa49",
+				{
+					"AddEventConnection": ["GlowPower", "ConstantVector1D_07_Value", "cafeebed0c0b5166"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2043b6264220e301",
+				{
+					"PatchArrayPropertyValue": [
+						"Clients",
+						[
+							{
+								"RemoveItemByValue": "5814138cf8975101"
+							},
+							{
+								"AddItem": "64caaa70637951e7"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeebed0c0b5166",
+				{
+					"parent": "64caaa70637951e7",
+					"name": "movie_set_lamp_d",
+					"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].entitytype,[modules:/zlightsaveaspect.class].entitytype).pc_entitytype",
+					"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].entitytype,[modules:/zlightsaveaspect.class].entitytype).pc_entityblueprint",
+					"properties": {
+						"ConstantColorRGB_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_07_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["5814138cf8975101"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null,
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

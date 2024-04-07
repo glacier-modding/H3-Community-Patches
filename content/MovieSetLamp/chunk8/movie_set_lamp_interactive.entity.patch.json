@@ -1,0 +1,83 @@
+{
+	"tempHash": "008B59D617CB47D6",
+	"tbluHash": "00069EDD5056CD80",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a58c550661918e55",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_fDiffusePower",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1fb5b4ad78c33d1",
+				{
+					"PatchArrayPropertyValue": [
+						"Clients",
+						[
+							{
+								"RemoveItemByValue": "0ef9b712d8a8dbc6"
+							},
+							{
+								"AddItem": "57ecc21207512d74"
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8d221ffd2a41a3fc",
+				{
+					"AddEventConnection": ["DiffuseColor", "ConstantColorRGB_01_Value", "cafe3a9972a423d7"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8d221ffd2a41a3fc",
+				{
+					"AddEventConnection": ["GlowPower", "ConstantVector1D_07_Value", "cafe3a9972a423d7"]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3a9972a423d7",
+				{
+					"parent": "9d333140bf897c5d",
+					"name": "movie_set_lamp_d",
+					"factory": "[assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/environment/materials/props/lamps/movie_set_lamp_d.mi].pc_entityblueprint",
+					"properties": {
+						"ConstantColorRGB_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_07_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["0ef9b712d8a8dbc6"],
+							"postInit": true
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "9d333140bf897c5d",
+							"postInit": true
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

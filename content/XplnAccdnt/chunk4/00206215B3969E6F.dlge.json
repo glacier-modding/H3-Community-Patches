@@ -1,0 +1,29 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/ai/et_drop/inca_xplnaccdnt_et_drop.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnaccdnt_et_drop_et_drop_001",
+				"weight": 0.1666666368643425,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_drop/inca_xplnaccdnt_et_drop_et_drop_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/et_drop/inca_xplnaccdnt_et_drop_et_drop_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "inca_xplnx_et_drop_et_drop_002",
+				"weight": 0.1666666368643425,
+				"soundtag": "In-world_AI_Important",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/ai/et_drop/inca_xplnx_et_drop_et_drop_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/ai/et_drop/inca_xplnx_et_drop_et_drop_002.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}
