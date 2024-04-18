@@ -1,0 +1,343 @@
+{
+	"tempHash": "0033F251F5F38B97",
+	"tbluHash": "00CED4935AB13F12",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "8da65f6621dd2f2e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "2ad63de7de5cd4a2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "fa7593b5dd40c96e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "b3cd249382c55e63"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "c19562676e0e8fbf"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "e1fed7e0d583d955"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "a51b4fc02eb36df8"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "f71a85c9be79a690"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "59b734f34706ba20"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "680f33dbd0a9d51c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "81c1e3b9fcb3656c"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7688f5fa6cb8bf5d",
+				{
+					"AddPropertyAliasConnection": [
+						"m_bRaytracingVisible",
+						{
+							"originalProperty": "m_bRaytracingVisible",
+							"originalEntity": "1c7a534f426a7e4e"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed88dabfd5de5",
+				{
+					"parent": "7688f5fa6cb8bf5d",
+					"name": "Stupid LOD bug/issue workaround",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5593019a2eed",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "ValueBool_EntityProperty",
+					"factory": "[modules:/zvaluebool_entityproperty.class].pc_entitytype",
+					"blueprint": "[modules:/zvaluebool_entityproperty.class].pc_entityblueprint",
+					"properties": {
+						"m_rEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "7688f5fa6cb8bf5d"
+						},
+						"m_sPropertyName": {
+							"type": "ZString",
+							"value": "m_bRaytracingVisible"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe04a98177af91",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "ValueBool_Set",
+					"factory": "[modules:/zvaluebool_set.class].pc_entitytype",
+					"blueprint": "[modules:/zvaluebool_set.class].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe5593019a2eed"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee8fa68b19221",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "ValueBool_Operation",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe2ffcc913d936"]
+						},
+						"m_eEvaluation": {
+							"type": "ZValueBool_Operation_Signal.EEvaluationType",
+							"value": "ALL"
+						},
+						"m_bFireOnLevelStart": {
+							"type": "bool",
+							"value": true
+						}
+					},
+					"events": {
+						"OnFalse": {
+							"Signal": ["cafe08628df31421"],
+							"SetTrue": ["cafe2ffcc913d936"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe2ffcc913d936",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "VB Has ran",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": {
+							"type": "bool",
+							"value": false
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8f2c8e3c56c6",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "SignalPipeEntity_Void Set False",
+					"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out": {
+							"SetFalse": ["cafe04a98177af91"],
+							"In": ["cafec36512db9c7b"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafec36512db9c7b",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "SignalPipeEntity_Void Set True",
+					"factory": "[modules:/zsignalpipeentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+					"events": {
+						"Out": {
+							"SetTrue": ["cafe04a98177af91"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe08628df31421",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "VoidSignalOnce_Simple",
+					"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+					"events": {
+						"Out": {
+							"In": ["cafe8f2c8e3c56c6"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe86108a5d5d47",
+				{
+					"parent": "cafed88dabfd5de5",
+					"name": "GameEventListener",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_SavegameRestored"
+						}
+					},
+					"events": {
+						"EventOccurred": {
+							"In": ["cafe8f2c8e3c56c6"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
