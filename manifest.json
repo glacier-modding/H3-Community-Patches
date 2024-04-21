@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.30.0",
+	"version": "0.13.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
@@ -8,7 +8,7 @@
 	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
-	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
+	"updateCheck": "https://github.com/dribbleondo/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
 			"name": "Don't Insult Accident Victims",
