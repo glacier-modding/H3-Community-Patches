@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.13.0",
+	"version": "0.31.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
@@ -8,7 +8,7 @@
 	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
-	"updateCheck": "https://github.com/dribbleondo/H3-Community-Patches/releases/latest/download/updates.json",
+	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
 			"name": "Don't Insult Accident Victims",
@@ -49,7 +49,7 @@
 		"004EC612565A38BD": {
 			"english": {
 				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
-				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night.. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle.."
+				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle."
 			}
 		},
 		"00CD5444B4C541F2": {
