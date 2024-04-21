@@ -8,7 +8,6 @@
 	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
-	"updateCheck": "https://github.com/dribbleondo/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
 			"name": "Don't Insult Accident Victims",
