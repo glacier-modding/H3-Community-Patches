@@ -5,7 +5,12 @@
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
 	"authors": ["Notex", "Minnow", "Atampy26", "Jojje", "Dribbleondo", "musicalmushr00m", "VoodooHillbilly", "Cybore"],
-	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
+	"contentFolders": [
+		"content/SmallFixes",
+		"content/MovieSetLamp",
+		"content/SapienzaChurch",
+		"content/WhittletonBroadcastSync"
+	],
 	"blobsFolders": ["blobs"],
 	"frameworkVersion": "2.33.9",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
@@ -16,13 +21,6 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/XplnAccdnt"]
-		},
-		{
-			"name": "Whittleton Broadcast Sync",
-			"tooltip": "In vanilla, the TV in Whittleton Creek has its audio desynced from its visuals. This will fix it, but only after the first loop.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/WhittletonBroadcastSync"]
 		},
 		{
 			"name": "Purple Streak Duck",
