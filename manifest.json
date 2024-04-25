@@ -18,13 +18,6 @@
 			"contentFolders": ["content/XplnAccdnt"]
 		},
 		{
-			"name": "Whittleton Broadcast Sync",
-			"tooltip": "In vanilla, the TV in Whittleton Creek has its audio desynced from its visuals. This will fix it, but only after the first loop.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/WhittletonBroadcastSync"]
-		},
-		{
 			"name": "Purple Streak Duck",
 			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
 			"type": "checkbox",
