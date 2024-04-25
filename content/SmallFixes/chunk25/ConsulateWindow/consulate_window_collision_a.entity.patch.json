@@ -1,0 +1,15 @@
+{
+	"tempHash": "00C3C1186E7495FE",
+	"tbluHash": "00EB7557C5F42132",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9d1353bea7bfc3ab",
+				{
+					"SetBlueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
