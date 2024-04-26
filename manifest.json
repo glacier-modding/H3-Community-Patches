@@ -18,7 +18,7 @@
 			"contentFolders": ["content/XplnAccdnt"]
 		},
 		{
-			"name": "Purple Streak Duck",
+			"name": "Rename Purple Streak Duck",
 			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -26,6 +26,19 @@
 				"008322D98E1CFE04": {
 					"english": {
 						"3870856120": "The Purple Streak Duck"
+					}
+				}
+			}
+		},
+		{
+			"name": "Rename Burial Dagger",
+			"tooltip": "Changes the name of \"Burial Dagger\" to \"Janus' Burial Dagger\".",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"localisationOverrides": {
+				"005DE6FF4B418AF8": {
+					"english": {
+						"4104944236": "Janus' Burial Dagger"
 					}
 				}
 			}
@@ -43,6 +56,21 @@
 			"english": {
 				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
 				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle."
+			}
+		},
+		"008322D98E1CFE04": {
+			"english": {
+				"611928695": "A pair of old garden shears used for trimming bushes."
+			}
+		},
+		"00873D29DB58C88A": {
+			"english": {
+				"594769380": "A vintage Branson MD-2 condenser microphone. This microphone was removed from the market in the 1960's due to a production defect that makes the MD-2 short-circuit at high voltages."
+			}
+		},
+		"005DE6FF4B418AF8": {
+			"english": {
+				"2935068597": "A ceremonial dagger used as a part of The Ark Society's tribute to Janus."
 			}
 		},
 		"00CD5444B4C541F2": {
