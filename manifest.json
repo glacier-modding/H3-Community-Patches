@@ -36,6 +36,13 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/ElusiveVoices"]
+		},
+		{
+			"name": "Futo Suit Receives Ninja Comments",
+			"tooltip": "NPCs will make ninja-themed comments when 47 is wearing the Futo Suit.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/OACFixesFuto"]
 		}
 	],
 	"localisationOverrides": {

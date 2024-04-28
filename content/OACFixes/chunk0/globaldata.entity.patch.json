@@ -4,17 +4,6 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"d9d6c906b35694be",
-				{
-					"SetPropertyValue": {
-						"property_name": "m_eOutfitAICategory",
-						"value": "OAC_Ninja"
-					}
-				}
-			]
-		},
-		{
-			"SubEntityOperation": [
 				"fd4f2e00e2c01bfa",
 				{
 					"SetPropertyValue": {
