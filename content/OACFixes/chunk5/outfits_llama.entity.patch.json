@@ -1,0 +1,97 @@
+{
+	"tempHash": "005BEA817AB83688",
+	"tbluHash": "0097E3AEFBB3C504",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c18c22686bd96cf9",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Chef" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24a527cffbe9f8f6",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Musician" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"32ff535f5aa820f2",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Waiter" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"24af222c23ebdedc",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Waiter" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"63295fdebe679c73",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Worker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9ef8fe6905f2b27f",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Fixer" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a04dd23c3b409189",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Sommelier" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1b643049259d703b",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_WineMkr" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b02fc2214967608f",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_SpecOps" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3d8da7be4f0b5c63",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Herald" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"185d39a899f210b9",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bodyguard" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f1414cc90c215414",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_LawyerBd" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1ae097acb3856bc5",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_SpecOps" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"377034679b135507",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Gaucho" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b656a5d98601d242",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Herald" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}
