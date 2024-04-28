@@ -31,19 +31,6 @@
 			}
 		},
 		{
-			"name": "Rename Burial Dagger",
-			"tooltip": "Changes the name of \"Burial Dagger\" to \"Janus' Burial Dagger\".",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"localisationOverrides": {
-				"005DE6FF4B418AF8": {
-					"english": {
-						"4104944236": "Janus' Burial Dagger"
-					}
-				}
-			}
-		},
-		{
 			"name": "Elusive Target Voice Fixes",
 			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
 			"type": "checkbox",
@@ -65,7 +52,7 @@
 		},
 		"00873D29DB58C88A": {
 			"english": {
-				"594769380": "A vintage Branson MD-2 condenser microphone. This rare model was removed from the market in the 1960s after causing a number of electric shock fatalities. Apparently, a production defect makes the MD-2 short-circuit at high voltages."
+				"2935068597": "A ceremonial dagger."
 			}
 		},
 		"00CD5444B4C541F2": {
