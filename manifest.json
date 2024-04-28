@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.36.0",
+	"version": "0.37.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
