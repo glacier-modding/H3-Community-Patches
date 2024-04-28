@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato.sweetdialog?/dr3005_gossip_novikovsato_civmale04_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr3005_gossip_novikovsato_civmale04_001",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato_civmale04_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato_civmale04_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.016687)\\\\So, Sato doing the Sanguine line, huh?//(3.016687,6.890061)\\\\I mean, he did my stage clothes for the last tour. Pretty cool stuff.//(6.890061,10.45153)\\\\The way his solo career was skyrocketing, I never thought he'd be taking a backseat,//(10.45153,19.65252)\\\\you know, designing for one of the big name brands.",
+			"fr": "//(0,3)\\\\Alors comme ça, c'est Sato qui dirige la collection Sanguine, hein ?//(3,6.6)\\\\C'est lui qui a créé mes costumes de scène pour ma dernière tournée. Des trucs plutôt sympas.//(6.6,8.4)\\\\Vu la façon dont sa carrière explosait,//(8.4,38.4)\\\\j'aurais jamais pensé qu'il accepterait de jouer les seconds rôles pour le compte d'une grosse maison.",
+			"it": "//(0,2.950982)\\\\E così... Sato ha firmato la linea della Sanguine, eh?//(2.950982,5.163865)\\\\Ha disegnato anche i costumi del mio ultimo tour.//(5.163865,8.67675)\\\\Roba forte. La sua carriera da freelance sembrava inarrestabile,//(8.67675,38.67675)\\\\mi suona strano che abbia ripiegato su un banale incarico per un marchio di punta.",
+			"de": "//(0,2.665)\\\\Dann arbeitet Sato jetzt also für Sanguine, huh?//(2.665,6.66)\\\\Er hat mein Bühnenoutfit für die letzte Tour entworfen. Ziemlich cool.//(6.66,8.545)\\\\So, wie seine Solokarriere durch die Decke ging,//(8.545,38.545)\\\\hätte ich nicht gedacht, dass er noch mal für eine der großen Marken arbeiten würde.",
+			"es": "//(0,6.4)\\\\Así que Sato está diseñando la línea de ropa de Sanguine, ¿eh? Es que creó la ropa de mi desfile en la última gira. Muy chula.//(6.4,36.4)\\\\Con lo bien que le estaba yendo su carrera en solitario, jamás pensé que se quedaría en un segundo plano y diseñaría para una de las grandes marcas.",
+			"ru": "//(0,3)\\\\Так, значит, Сато теперь создает дизайны для «Сэнгвин»?//(3,5.15)\\\\В прошлом году он шил костюмы для моего турне.//(5.15,6.3)\\\\Вышло очень здорово, между прочим.//(6.3,8.7)\\\\Его карьера независимого модельера шла в гору.//(8.7,10.3)\\\\Я бы ни за что не подумал, что он даст задний ход,//(10.3,40.3)\\\\в смысле, начнет работать на крупный бренд.",
+			"cn": "//(0,2.7)\\\\所以负责桑甘时装的人是佐藤吗？//(2.7,5.2)\\\\我是说，我上次巡演的舞台服装就是他做的，//(5.2,6.3)\\\\做得相当不错。//(6.3,8.4)\\\\看他之前的单飞生涯一飞冲天，//(8.4,10.5)\\\\我从来没想过他也会屈居人下。//(10.5,40.5)\\\\你也知道，给某家名牌大厂做设计什么的。",
+			"tc": "//(0,6.15)\\\\所以負責桑甘時裝的人是佐藤嗎？我是說，我上次巡演的舞臺服裝就是他做的，做得相當不錯。//(6.15,10.15)\\\\看他之前的單飛生涯一飛沖天，我從來沒想過他也會屈居人下。//(10.15,40.15)\\\\你也知道，給某家名牌大廠做設計什麼的。",
+			"jp": "//(0,6.195709)\\\\まさか、 サトウが サンギーヌの コレクションを 手がけるとはな。 実は、 前回の ツアーで//(6.195709,12.39142)\\\\着たステージ衣装は、 彼に 依頼したんだ。 超クールだった。 大手ブランドで 誰かの 下で 働くとはねぇ。"
+		}
+	}
+}
