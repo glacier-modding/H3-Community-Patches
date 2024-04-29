@@ -1,0 +1,31 @@
+{
+	"tempHash": "00EDB1AB915B208B",
+	"tbluHash": "00C749244D830BC6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"358c54b957e52112",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Mech_Miami" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e713d291bc8495d6",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Driverch" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d8891d793d196127",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Waiter" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"40d944d81cb0f4c1",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Mech_Miami" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

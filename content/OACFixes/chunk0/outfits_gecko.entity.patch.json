@@ -1,0 +1,55 @@
+{
+	"tempHash": "00637AA0549EE05A",
+	"tbluHash": "00D3B768E70B1F11",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f7e9721411c9eb3c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bodyguard" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c4aab3c18c870ebe",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_TechCrew" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cc960524d3851be0",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Sheik" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6d9e272f04e34208",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_TechCrew" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"999920fa5f30f877",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_SpecOps" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"eb2c9e4fd84caf3c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Critic" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4677cc4120621fd8",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Security" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d90a58c531cb4783",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_HouseStaff" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

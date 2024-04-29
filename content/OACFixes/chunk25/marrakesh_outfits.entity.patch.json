@@ -1,0 +1,19 @@
+{
+	"tempHash": "00BA5D22A0D0A3CC",
+	"tbluHash": "00D240E8E4BB11CB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c187c381a478146c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Elite" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cdd321420b4e6ef0",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Headmaster" }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

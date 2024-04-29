@@ -1,0 +1,37 @@
+{
+	"tempHash": "00E95B973DD44755",
+	"tbluHash": "00FF110EBD82A8FC",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"15ad4877e2b8c4bc",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Officer" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"32f7e47c0a9d153c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Worker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"87cf5d9799d1d8cb",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Nitiate" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bccc2a86d447c82c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_HouseStaff" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d75e176ba656a094",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bodyguard" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

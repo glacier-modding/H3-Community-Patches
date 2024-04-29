@@ -1,0 +1,49 @@
+{
+	"tempHash": "0089EEDD2BD773F3",
+	"tbluHash": "00E099E585CA648E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6a0928c8c476848b",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Waiter" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3261566d6348e2b1",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Chef" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65ab44795be28e58",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Doctor" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4319f89935697c26",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_HouseStaff" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12192e53b4956e70",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Security" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d084e0f532783836",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_Cleaner" }] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e08fa823de16ddd7",
+				{ "AddProperty": ["m_eOutfitAICategory", { "type": "EOutfitAICategory", "value": "OAC_SpecOps" }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,13 @@
+{
+	"tempHash": "009E5F3C7A0B20D4",
+	"tbluHash": "006D1001E5CAF41B",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1ffd99ad16340790",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Fallback" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

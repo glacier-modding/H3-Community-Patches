@@ -36,6 +36,13 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/ElusiveVoices"]
+		},
+		{
+			"name": "Futo Suit Receives Ninja Dialogue",
+			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/OACFixesFuto"]
 		}
 	],
 	"localisationOverrides": {

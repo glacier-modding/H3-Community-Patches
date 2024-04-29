@@ -1,0 +1,304 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fd4f2e00e2c01bfa",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8869ec1cda3f7497",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7ea4fad7827e590d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ddb45a00e795cde9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47Suit"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"853becc484ea6586",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Fallback"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7018bf8d75cad124",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Terminus"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"818ca7d62994e985",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47PREORDER"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"defa1e319b9f1c9e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTOUTFIT"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c2e828fcc8a664e9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"48e4a0c11be6bde0",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5fad2c74b5d5fae5",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Terminus"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ab95f88ca7626624",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47Suit"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d32d1f350bb3fad3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Parka"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8456e7b29aff6e5b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Ninja"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"26f5f25c6c3209ad",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Terminus"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"691fd91d70082d12",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"00b08afa512d8d3f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Snowtrek"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"81deef83f3a67d96",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47HOKKAIDO"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c8d9bedbe78fd7cb",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47Suit"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"270f6262d79a32de",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Tux"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a63fd24ee4195551",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8e45edf81fd16c5d",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"256a7b1943055437",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9b1b7ee3ec309804",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"909f85979376b35f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Parka"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ddf2fdfd64a666b2",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47STARTCLASSY"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e6ea5cd0ea947f00",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_47Suit"
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

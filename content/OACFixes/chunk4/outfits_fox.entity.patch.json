@@ -1,0 +1,103 @@
+{
+	"tempHash": "00AAF7A62718DE49",
+	"tbluHash": "00782A77D7261C71",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"c343970e9e79cd78",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Biker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"080676230e834e4d",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubTech" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"5ec9e7a445584b4b",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bartender" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4a58d0e1c206cb16",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubStaff" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"13f3e41df6460ef0",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubTech" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d04649ca431a9f06",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Biker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43ea8449e0e76626",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Dealer" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6da9a604debdc1ad",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_DeliveryFox" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8a40b56b465c2c30",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bartender" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4194705e63a2c914",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Bartender" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"655254dc341df695",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Biker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"832c1c4e29604b58",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubTech" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ee35fc9a368db1d8",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Flrdaman" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"236ff6a8779c94cf",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubStaff" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c43acf8570e63977",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Biker" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1f36cde7dcaa07f1",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_ClubStaff" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

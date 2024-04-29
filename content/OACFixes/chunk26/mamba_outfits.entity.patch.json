@@ -1,0 +1,13 @@
+{
+	"tempHash": "00AB32727BCC4B27",
+	"tbluHash": "00AD02C70077C159",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"79ab1dccea1cc546",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Security" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}
