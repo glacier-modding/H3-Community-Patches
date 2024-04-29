@@ -20,6 +20,15 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
               with:
+                  types: |
+                      fix
+                      feat
+                      enhancement
+                      style
+                      refactor
+                      build
+                      ci
+                      chore
                   requireScope: false
                   validateSingleCommit: true
                   validateSingleCommitMatchesPrTitle: true
