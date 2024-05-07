@@ -1,0 +1,13 @@
+{
+	"tempHash": "002F8CB26F44D775",
+	"tbluHash": "00B8F2AD2B65AA51",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f396fe4e649d7af1",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Scientist" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

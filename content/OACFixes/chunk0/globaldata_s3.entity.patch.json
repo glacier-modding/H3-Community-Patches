@@ -1,0 +1,25 @@
+{
+	"tempHash": "00067E3A2FBD4BA8",
+	"tbluHash": "0072355BB89BDB1E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"12476f8f17abe252",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Tux" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b1f5deacb5ed414a",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47STARTOUTFIT" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"6ddf6ccdb8c962b3",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_47Suit" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

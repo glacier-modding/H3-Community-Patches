@@ -1,13 +1,13 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.28.0",
+	"version": "0.38.1",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
-	"authors": ["Notex, Minnow, Atampy26, Jojje, Dribbleondo, musicalmushr00m, VoodooHillbilly"],
-	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp"],
+	"authors": ["Notex", "Minnow", "Atampy26", "Jojje", "Dribbleondo", "musicalmushr00m", "VoodooHillbilly", "Cybore"],
+	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
 	"blobsFolders": ["blobs"],
-	"frameworkVersion": "2.33.9",
+	"frameworkVersion": "2.33.12",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
@@ -18,14 +18,7 @@
 			"contentFolders": ["content/XplnAccdnt"]
 		},
 		{
-			"name": "Whittleton Broadcast Sync",
-			"tooltip": "In vanilla, the TV in Whittleton Creek has its audio desynced from its visuals. This will fix it, but only after the first loop.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/WhittletonBroadcastSync"]
-		},
-		{
-			"name": "Purple Streak Duck",
+			"name": "Rename Purple Streak Duck",
 			"tooltip": "Changes the name of \"Remote Explosive Purple Duck\" to \"The Purple Streak Duck\".",
 			"type": "checkbox",
 			"enabledByDefault": true,
@@ -45,14 +38,30 @@
 			"contentFolders": ["content/ElusiveVoices"]
 		},
 		{
-			"name": "Disguise Inconsistency Fixes (DIF)",
-			"tooltip": "Fixes various inconsistencies between outfits when worn by NPCs vs 47, e.g. 47 creating hats from nowhere when taking the clothes of hatless Hokkaido handymen.",
+			"name": "Futo Suit Receives Ninja Dialogue",
+			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/DIF"]
+			"contentFolders": ["content/OACFixesFuto"]
 		}
 	],
 	"localisationOverrides": {
+		"004EC612565A38BD": {
+			"english": {
+				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
+				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle."
+			}
+		},
+		"008322D98E1CFE04": {
+			"english": {
+				"611928695": "Old garden shears."
+			}
+		},
+		"005DE6FF4B418AF8": {
+			"english": {
+				"2935068597": "A ceremonial dagger."
+			}
+		},
 		"00CD5444B4C541F2": {
 			"german": {
 				"3334260929": "Das Gemini-Fiasko – Stufe 5"

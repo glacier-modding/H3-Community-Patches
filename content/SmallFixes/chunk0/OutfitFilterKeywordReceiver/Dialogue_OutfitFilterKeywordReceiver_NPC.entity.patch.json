@@ -1,0 +1,19 @@
+{
+	"tempHash": "0056F3B2EB04FA1E",
+	"tbluHash": "0097948709181491",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"22d67c3fc2dbae5c",
+				{ "SetPropertyValue": { "property_name": "m_bSubscribeToKeywordChanges", "value": true } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1da5079c6571a451",
+				{ "AddProperty": ["m_bAlwaysSignalOnSet", { "type": "bool", "value": true }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

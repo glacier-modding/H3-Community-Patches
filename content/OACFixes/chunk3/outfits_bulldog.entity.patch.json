@@ -1,0 +1,31 @@
+{
+	"tempHash": "008B1B203C9F6275",
+	"tbluHash": "00342E071F8F2181",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"43b3f13bcc6fb64e",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_PrivateEye" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"58760a73b2df494",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_LawyerBd" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e0e64f39e104904c",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Security" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e3f9ebb35328739b",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_FamilyGrd" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,19 @@
+{
+	"tempHash": "00306390671210BB",
+	"tbluHash": "00163C48D02EFCC9",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"18935cfab3b4cf18",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Food" } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"05829c56506fd5db",
+				{ "SetPropertyValue": { "property_name": "m_eOutfitAICategory", "value": "OAC_Metalwkr" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

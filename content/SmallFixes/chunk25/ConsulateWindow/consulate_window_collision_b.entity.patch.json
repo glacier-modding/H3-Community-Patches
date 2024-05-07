@@ -1,0 +1,24 @@
+{
+	"tempHash": "00FFE1E0730546C2",
+	"tbluHash": "008130A85A690BE8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2ed3aa8cc1e0b74f",
+				{
+					"AddProperty": [
+						"m_CollisionResourceID",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/environment/geometry/architecture/windows/windows_modern_consulate.wl2?/consulate_windowsection_4x4m_b_frosted.prim].pc_coll",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

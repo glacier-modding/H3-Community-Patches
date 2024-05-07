@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato.sweetdialog?/dr3005_gossip_novikovsato_civmale02_002.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr3005_gossip_novikovsato_civmale02_002",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato_civmale02_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/paris/3000_fashion/3000_story/dr3005_gossip_novikovsato_civmale02_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.373374)\\\\Oh, I'd love to be a fly on the wall in those design meetings.//(3.373374,8.32865)\\\\I mean, two inflated egos like Sato and Novikov going head to head?//(8.32865,15.72773)\\\\That's gotta be a comedy waiting to happen... or a survival horror.",
+			"fr": "//(0,3.2)\\\\Oh, j'adorerais pouvoir espionner une de leurs séances de brainstorming.//(3.2,8.3)\\\\Voir s'affronter deux ego démesurés comme Sato et Novikov,//(8.3,38.3)\\\\ça doit être à hurler de rire... ou terrifiant, si jamais ils s'entretuent.",
+			"it": "//(0,3.117178)\\\\Vorrei essere una mosca ferma sul muro durante le riunioni di progettazione.//(3.117178,8.416258)\\\\Assistere a una sfida tra due egocentrici come Sato e Novikov?//(8.416258,38.41626)\\\\Dev'essere un vero spasso... o un incubo a occhi aperti.",
+			"de": "//(0,3.181)\\\\Ich würde zu gern bei einem dieser Design-Meetings Mäuschen spielen.//(3.181,8.550061)\\\\Ich meine, zwei Egos wie Sato und Novikov in einem Team?//(8.550061,38.55006)\\\\Das wird garantiert lustig ... oder ein Albtraum.",
+			"es": "//(0,3.1)\\\\Dios, me encantaría poder oír lo que se dice en esas reuniones de diseño.//(3.1,8.2)\\\\O sea, ¿dos egos inflados como el de Sato y el de Novikov, enfrentándose cara a cara?//(8.2,11.7)\\\\Eso tiene que ser una comedia...//(11.7,41.7)\\\\o una peli de miedo.",
+			"ru": "//(0,3.04)\\\\О, я бы хотел хоть одним глазком заглянуть к ним на совещания.//(3.04,9.05)\\\\Кто бы не хотел взглянуть на то, как Сато и Новиков меряются своими эго?//(9.05,11.8)\\\\Держу пари, выглядит как настоящая комедия.//(11.8,41.8)\\\\Или фильм ужасов.",
+			"cn": "//(0,1.5)\\\\哦，要是能参加设计师会议，//(1.5,2.9)\\\\让我当墙上的苍蝇我都愿意。//(2.9,7.5)\\\\我是说，像佐藤和诺维科夫这两个自我膨胀的家伙面对面？//(7.5,11)\\\\这可真是一场让人期待的喜剧//(11,41)\\\\...或是一场灾难片。",
+			"tc": "//(0,3)\\\\哦，要是能參加設計師會議，讓我當牆上的蒼蠅我都願意。//(3,7.6)\\\\我是說，像佐藤和諾維科夫這兩個自我膨脹的傢伙面對面？//(7.6,37.6)\\\\這可真是一場讓人期待的喜劇......或是一場災難片。",
+			"jp": "//(0,5.963277)\\\\彼らの デザイン会議には、 ぜひ一度参加して みたいね。 プライドの 塊の サトウと ノビコフが//(5.963277,10.70284)\\\\正面から やり合ったら、 どうなるかな？ かなり面白いショーに なるか...//(10.70284,13.95158)\\\\それとも、 惨劇を 生むか..."
+		}
+	}
+}
