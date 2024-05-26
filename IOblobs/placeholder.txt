@@ -1,1 +1,0 @@
-This file exists to make sure that the IOblobs folder isn't deleted automatically. IOblobs isn't used yet, but my next PR (the reason the license needed to be updated) will use it (once I update the PR)
