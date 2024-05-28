@@ -1,0 +1,1 @@
+This file exists to make sure that the blobsIOI folder isn't deleted automatically. The blobsIOI folder isn't used yet, but my next PR (the reason the license needed to be updated) will use it (once I update the PR)

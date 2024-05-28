@@ -1,0 +1,13 @@
+{
+	"tempHash": "004868F794D35933",
+	"tbluHash": "006E467BCDA40509",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7c371b2c77a417da",
+				{ "AddProperty": ["m_fActTimeout", { "type": "float32", "value": 10.0 }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}
