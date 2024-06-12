@@ -1,0 +1,29 @@
+{
+	"tempHash": "00060EA3F8C0C77C",
+	"tbluHash": "006418A9134AE9E5",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4d004cecd1e38131",
+				{
+					"SetPropertyValue": {
+						"property_name": "OilSpillTransform",
+						"value": {
+							"rotation": {
+								"x": 0,
+								"y": 0,
+								"z": 0
+							},
+							"position": {
+								"x": 0,
+								"y": -0.2,
+								"z": 0.16
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
