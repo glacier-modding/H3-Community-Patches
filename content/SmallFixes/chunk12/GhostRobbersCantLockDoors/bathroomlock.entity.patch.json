@@ -1,0 +1,138 @@
+{
+	"tempHash": "009FDC60393C0DA2",
+	"tbluHash": "00A8BF4B33B25673",
+	"patch": [
+		{ "SubEntityOperation": ["f013302271015d2b", { "RemoveAllEventConnectionsForTrigger": ["OnTrue", "LockDoor"] }] },
+		{ "SubEntityOperation": ["f013302271015d2b", { "AddEventConnection": ["OnTrue", "Poll", "feed080834c654ea"] }] },
+		{
+			"SubEntityOperation": [
+				"4be12d83f2969130",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{ "AddItemAfter": ["62d6d1a3ff61dfa3", "feed63bfdad73266"] },
+							{ "AddItemAfter": ["62d6d1a3ff61dfa3", "feed13f4decaa6a8"] }
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed8b8e425ce2e9",
+				{
+					"parent": "f013302271015d2b",
+					"name": "Couples Active",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedba6a78b3c5ff",
+				{
+					"parent": "feed8b8e425ce2e9",
+					"name": "ActorDeath F",
+					"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+					"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+					"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "b5b2cc8d0e95a4e0" } },
+					"events": {
+						"OnDead": { "SetFalse": ["feed63bfdad73266"] },
+						"OnPacified": { "SetFalse": ["feed63bfdad73266"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed63bfdad73266",
+				{
+					"parent": "feedba6a78b3c5ff",
+					"name": "Active F Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": { "m_bValue": { "type": "bool", "value": true } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc84241f26bc0",
+				{
+					"parent": "feed8b8e425ce2e9",
+					"name": "ActorDeath M",
+					"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+					"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+					"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "6909abbc3b8039c8" } },
+					"events": {
+						"OnDead": { "SetFalse": ["feed13f4decaa6a8"] },
+						"OnPacified": { "SetFalse": ["feed13f4decaa6a8"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed13f4decaa6a8",
+				{
+					"parent": "feedc84241f26bc0",
+					"name": "Active M Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": { "m_bValue": { "type": "bool", "value": true } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed69c1a35bba61",
+				{
+					"parent": "feed8b8e425ce2e9",
+					"name": "Umbrella",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_eEvaluation": { "type": "ZValueBool_Operation_Signal.EEvaluationType", "value": "ANY" },
+						"m_aValues": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed63bfdad73266", "feed13f4decaa6a8"],
+							"postInit": true
+						}
+					},
+					"events": {
+						"OnTrue": { "SetTrue": ["feedcc73c6607c7d"] },
+						"OnFalse": { "SetFalse": ["feedcc73c6607c7d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed080834c654ea",
+				{
+					"parent": "feed69c1a35bba61",
+					"name": "Poll - Other Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "feedcc73c6607c7d" } },
+					"events": { "PollTrue": { "LockDoor": ["b48675c171f71352"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedcc73c6607c7d",
+				{
+					"parent": "feed080834c654ea",
+					"name": "Active Bool",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": { "m_bValue": { "type": "bool", "value": true } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
