@@ -1,0 +1,54 @@
+{
+	"tempHash": "00C125F564ACE981",
+	"tbluHash": "00FCACE39B79DD4E",
+	"patch": [
+		{ "SubEntityOperation": ["87fc9cdd0335ced4", { "AddEventConnection": ["OnTriggered", "In", "feed238f94445405"] }] },
+		{
+			"AddEntity": [
+				"feed432be58c8916",
+				{
+					"parent": "87fc9cdd0335ced4",
+					"name": "SetPosition",
+					"factory": "[modules:/zsetpositionentity.class].pc_entitytype",
+					"blueprint": "[modules:/zsetpositionentity.class].pc_entityblueprint",
+					"properties": {
+						"m_Reference": { "type": "SEntityTemplateReference", "value": "feed6269607acea6" },
+						"m_Entity": { "type": "SEntityTemplateReference", "value": "18d7b10e7790e943", "postInit": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed6269607acea6",
+				{
+					"parent": "feed432be58c8916",
+					"name": "Offset",
+					"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": -2000, "z": 0 } }
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "18d7b10e7790e943", "postInit": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed238f94445405",
+				{
+					"parent": "87fc9cdd0335ced4",
+					"name": "Timer Delay On",
+					"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+					"properties": { "Delay time (ms)": { "type": "int32", "value": 2000 } },
+					"events": { "Out": { "SetPosition": ["feed432be58c8916"] } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

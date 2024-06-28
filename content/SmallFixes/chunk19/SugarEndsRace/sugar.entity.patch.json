@@ -1,0 +1,31 @@
+{
+	"tempHash": "0056406088754691",
+	"tbluHash": "00CF14C55C3BCCA8",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9bf87d4396e3ad1a",
+				{
+					"AddEventConnection": ["SierraOutOfCar", "In", "67ef5d5ae239dfba"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9bf87d4396e3ad1a",
+				{
+					"AddEventConnection": ["MosesGetOutSugarCutScene", "disableTimer", "3b92478ce2999017"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9bf87d4396e3ad1a",
+				{
+					"AddEventConnection": ["SierraGetOutSugarCutScene", "disableTimer", "3b92478ce2999017"]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
