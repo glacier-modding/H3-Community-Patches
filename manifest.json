@@ -3,7 +3,7 @@
 	"version": "0.45.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
-	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
+	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
 	"authors": [
 		"Notex",
 		"Minnow",
