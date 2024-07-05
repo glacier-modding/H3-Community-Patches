@@ -16,7 +16,7 @@
 		"Anthony Fuller",
 		"Luiluix"
 	],
-	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
+	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch", "content/SecurityCams", "content/OACFixes"],
 	"blobsFolders": ["blobs", "blobsIOI"],
 	"frameworkVersion": "2.33.18",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
