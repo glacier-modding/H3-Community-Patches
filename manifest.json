@@ -23,6 +23,7 @@
 		"content/SecurityCams",
 		"content/OACFixes"
 	],
+	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"blobsFolders": ["blobs", "blobsIOI"],
 	"frameworkVersion": "2.33.18",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
