@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.47.1",
+	"version": "0.48.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
@@ -25,7 +25,7 @@
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
 	"blobsFolders": ["blobs", "blobsIOI"],
-	"frameworkVersion": "2.33.18",
+	"frameworkVersion": "2.33.19",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
