@@ -2,8 +2,8 @@
 	"tempHash": "00D4CB4858E849BE",
 	"tbluHash": "003C5911B9591221",
 	"patch": [
-		{ "SubEntityOperation": ["1ad52b972b57c746", { "SetFactory": "0119481567B9D3B4" }] },
-		{ "SubEntityOperation": ["1ad52b972b57c746", { "SetBlueprint": "01F6A3CB70F6902D" }] }
+		{ "SubEntityOperation": ["1ad52b972b57c746", { "SetFactory": "00C4C4271E7C1E98" }] },
+		{ "SubEntityOperation": ["1ad52b972b57c746", { "SetBlueprint": "00FA8068DAB49605" }] }
 	],
 	"patchVersion": 6
 }
