@@ -1,0 +1,31 @@
+{
+	"tempHash": "00C64F68AEB0621D",
+	"tbluHash": "0092D761C88E261E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a0bed8e7dcb450f6",
+				{
+					"AddEventConnection": [
+						"OnDestroyed",
+						"DisableAIPerceptible",
+						"a0bed8e7dcb450f6"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a0bed8e7dcb450f6",
+				{
+					"AddEventConnection": [
+						"OnDestroyed",
+						"DisablePickupItem",
+						"a0bed8e7dcb450f6"
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
