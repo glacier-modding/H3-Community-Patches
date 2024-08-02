@@ -1,0 +1,69 @@
+{
+	"tempHash": "00AC98DC9358E37B",
+	"tbluHash": "00FBCDA8E053DEAA",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"67928e8781c109b6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 180.466445291519381,
+								"y": -0.14346878088010995,
+								"z": -90
+							},
+							"position": {
+								"x": 11.923629760742188,
+								"y": -0.3859420120716095,
+								"z": 0.6848539710044861
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ca24b88ee4b339c4",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 180.466445291519381,
+								"y": -0.14346878088010995,
+								"z": -90
+							},
+							"position": { "x": -1.0, "y": 0, "z": 0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"1e560efd127f1916",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 180.466445291519381,
+								"y": -0.14346878088010995,
+								"z": -90
+							},
+							"position": {
+								"x": 0.026875000447034836,
+								"y": -0.0004920000210404396,
+								"z": -0.004038000013679266
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
