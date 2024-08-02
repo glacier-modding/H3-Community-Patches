@@ -4,10 +4,10 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"a0bed8e7dcb450f6",
+				"cb5551ec1ab9b3ae",
 				{
 					"AddEventConnection": [
-						"OnDestroyed",
+						"Triggered",
 						"DisableAIPerceptible",
 						"a0bed8e7dcb450f6"
 					]
@@ -16,10 +16,10 @@
 		},
 		{
 			"SubEntityOperation": [
-				"a0bed8e7dcb450f6",
+				"cb5551ec1ab9b3ae",
 				{
 					"AddEventConnection": [
-						"OnDestroyed",
+						"Triggered",
 						"DisablePickupItem",
 						"a0bed8e7dcb450f6"
 					]
