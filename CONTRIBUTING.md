@@ -6,6 +6,8 @@ We think it's great you want to contribute to the community effort! Here is a ru
 
 First begin by creating a GitHub account, if you haven't already, and install Git on your operating system. For Windows, get the [standalone installer here](https://git-scm.com/download/win) or, if you have winget, install it with `winget install --id Git.Git -e --source winget`.
 
+You may need to restart your computer after installing Git to make sure it recognizes the `git` command.
+
 Second, you need to install NodeJS on your operating system. The SMF mod template this project uses, needs NodeJS to function properly. You can download the latest LTS release [on the NodeJS website](https://nodejs.org/en).
 
 With these prerequisites done with, let's get to work with our contributions.
