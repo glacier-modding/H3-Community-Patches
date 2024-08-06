@@ -174,7 +174,7 @@ jobs:
                   mkdir $TARGETDIR
                   for file in *;do test "$file" != "$TARGETDIR" && cp -r "$file" "$TARGETDIR/";done
                   rm -rf "$TARGETDIR/node_modules"
-                  rm "$TARGETDIR/package.json" "$TARGETDIR/package-lock.json" "$TARGETDIR/README.md"
+                  rm "$TARGETDIR/package.json" "$TARGETDIR/package-lock.json" "$TARGETDIR/README.md" "$TARGETDIR/CONTRIBUTING.md"
 
             - name: Create ZIP
               if: ${{ steps.newVersion.outputs.new-release-version }}
