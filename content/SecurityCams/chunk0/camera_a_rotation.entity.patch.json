@@ -1,0 +1,73 @@
+{
+	"tempHash": "004870A34B9947C3",
+	"tbluHash": "008C89A1A916C87C",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"e1863e7f22b57089",
+				{ "RemoveAllEventConnectionsForTrigger": ["Out", "Start"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e1863e7f22b57089",
+				{
+					"AddEventConnection": [
+						"Out",
+						"Poll",
+						"cafedfee076a280e"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"696395f965275f9b",
+				{
+					"AddPropertyAliasConnection": [
+						"Rotating",
+						{
+							"originalProperty": "m_bValue",
+							"originalEntity": "cafef1a31effb6e7"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef1a31effb6e7",
+				{
+					"parent": "cafedfee076a280e",
+					"name": "Rotating On",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafedfee076a280e",
+				{
+					"parent": "c208c68d1029dc27",
+					"name": "ValueBool_Poll Rotation",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef1a31effb6e7"
+						}
+					},
+					"events": {
+						"PollTrue": { "Start": ["7858335a27b280f7"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
