@@ -3,20 +3,13 @@
 	"tbluHash": "008C89A1A916C87C",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"e1863e7f22b57089",
-				{ "RemoveAllEventConnectionsForTrigger": ["Out", "Start"] }
-			]
+			"SubEntityOperation": ["e1863e7f22b57089", { "RemoveAllEventConnectionsForTrigger": ["Out", "Start"] }]
 		},
 		{
 			"SubEntityOperation": [
 				"e1863e7f22b57089",
 				{
-					"AddEventConnection": [
-						"Out",
-						"Poll",
-						"cafedfee076a280e"
-					]
+					"AddEventConnection": ["Out", "Poll", "cafedfee076a280e"]
 				}
 			]
 		},
