@@ -4,6 +4,17 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"2d73895a86d2769c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eSoundFootwearType",
+						"value": "EFWT_LEATHER"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"fd4f2e00e2c01bfa",
 				{
 					"SetPropertyValue": {
@@ -196,6 +207,28 @@
 					"SetPropertyValue": {
 						"property_name": "m_eOutfitAICategory",
 						"value": "OAC_47HOKKAIDO"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9d970f90bd078351",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eSoundFootwearType",
+						"value": "EFWT_LEATHER"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9d970f90bd078351",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_eOutfitAICategory",
+						"value": "OAC_Plague"
 					}
 				}
 			]
