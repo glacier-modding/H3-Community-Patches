@@ -1,0 +1,42 @@
+{
+	"tempHash": "003AAAFB9FFEB63D",
+	"tbluHash": "00551D11E8DD0D7E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9d308352cc17a954",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+							"position": { "x": 0.0, "y": 0.01, "z": 0.0 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c27ba5acc9dfee09",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": 179.5590663673263, "y": -80.5585710538169, "z": -142.2510987369588 },
+							"position": { "x": 0.08405099809169769, "y": 0.017892999574542046, "z": -0.0004670000053010881 },
+							"scale": { "x": 1.0000003705233715, "y": 1.0000011064442944, "z": 0.9999993203736866 }
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c27ba5acc9dfee09",
+				{ "AddProperty": ["m_PrimitiveScale", { "type": "SVector3", "value": { "x": 1, "y": 1, "z": 1 } }] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

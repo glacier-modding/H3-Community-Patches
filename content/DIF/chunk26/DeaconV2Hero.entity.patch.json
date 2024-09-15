@@ -1,0 +1,39 @@
+{
+	"tempHash": "009180B6A0FE1992",
+	"tbluHash": "006E0E0FA3DEDD17",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"5d72ff87263219e3",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemBefore": ["cb69c56b0449ab68", "feed5991f6f2a80e"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed5991f6f2a80e",
+				{
+					"parent": "5d72ff87263219e3",
+					"name": "Mesh_Glasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/italy/deacon/geometry/male_reg_deacon.wl2?/glasses_01.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

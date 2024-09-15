@@ -1,0 +1,35 @@
+{
+	"tempHash": "008C5B68E52B6BBB",
+	"tbluHash": "00F1AE9F27F3076F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"35deb86b4779e83b",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": {
+							"resource": "[assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_heroa_v7.entitytemplate].pc_entitytemplate",
+							"flag": "9F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a11c0b2afda6bab3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": {
+							"resource": "[assembly:/_pro/characters/templates/sheep/char_sheep_guard.template?/outfit_sheep_guard_bodyguard_m_heroa_v5.entitytemplate].pc_entitytemplate",
+							"flag": "9F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,95 @@
+{
+	"tempHash": "000BB0D8814FD5C4",
+	"tbluHash": "006771E54B6802DD",
+	"patch": [
+		{ "RemoveEntityByID": "fcd8c53752215bfc" },
+		{ "RemoveEntityByID": "ea567058cce51ec7" },
+		{
+			"SubEntityOperation": [
+				"2bf5827ea2e286f7",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["72f68b63572ce297", "feedd04aa2e769fa"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedd04aa2e769fa",
+				{
+					"parent": "2bf5827ea2e286f7",
+					"name": "Mesh_Legs",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/civilians/italy/local_mens/geometry/male_reg_locals_04.wl2?/legs_shoes.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed444a981e8804",
+				{
+					"parent": "2bf5827ea2e286f7",
+					"name": "male_reg_body",
+					"factory": "003DCA5E22F37B5F",
+					"blueprint": "0041C89DFA9D7801",
+					"properties": {
+						"ConstantColorRGB_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"Texture2DNormal_01_enab": { "type": "bool", "value": true },
+						"Texture2D_01_enab": { "type": "bool", "value": true },
+						"Active": { "type": "bool", "value": true },
+						"Texture2D_03_enab": { "type": "bool", "value": true },
+						"ConstantVector1D_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_01_Value": { "type": "float32", "value": 0.550000011920929 },
+						"ConstantVector1D_04_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#ffffff" },
+						"ConstantVector1D_03_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_05_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_05_Value": { "type": "float32", "value": 0.5899999737739563 },
+						"ConstantVector1D_03_Value": { "type": "float32", "value": 1.1100000143051147 },
+						"ConstantVector1D_04_Value": { "type": "float32", "value": 0.17000000178813934 },
+						"Texture2DNormal_01": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "002A91695E748772", "flag": "5F" }
+						},
+						"Texture2D_03": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00A07AE8903D816A", "flag": "5F" }
+						},
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "0050DDCE91E6C6A3", "flag": "5F" }
+						},
+						"Clients": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

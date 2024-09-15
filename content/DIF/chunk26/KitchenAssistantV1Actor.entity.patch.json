@@ -1,0 +1,18 @@
+{
+	"tempHash": "008BB93609CFA8AA",
+	"tbluHash": "00CB81760984FCE3",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"4bf7ce3e1c19c780",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["4e2e32dea5cb235f", "7856934662f72ee2"] }]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

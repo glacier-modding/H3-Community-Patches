@@ -1,0 +1,29 @@
+{
+	"tempHash": "00619C23EA9B6311",
+	"tbluHash": "00563F1C7F96A3FF",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"368a0cdb8f5186b9",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": { "resource": "00F13033AA4BAFF3", "flag": "9F" }
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"762c6d3bcd5dd78f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": { "resource": "00FF73086002FF03", "flag": "9F" }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
