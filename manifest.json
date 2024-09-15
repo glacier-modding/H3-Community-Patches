@@ -1,13 +1,31 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.38.1",
+	"version": "0.53.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
-	"description": "A collection of fixes for Hitman: World of Assassination. This ranges from localisation line break fixes, inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!",
-	"authors": ["Notex", "Minnow", "Atampy26", "Jojje", "Dribbleondo", "musicalmushr00m", "VoodooHillbilly", "Cybore"],
-	"contentFolders": ["content/SmallFixes", "content/MovieSetLamp", "content/SapienzaChurch"],
-	"blobsFolders": ["blobs"],
-	"frameworkVersion": "2.33.12",
+	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
+	"authors": [
+		"Notex",
+		"Minnow",
+		"Atampy26",
+		"Jojje",
+		"musicalmushr00m",
+		"Dribbleondo",
+		"VoodooHillbilly",
+		"Cybore",
+		"Anthony Fuller",
+		"Luiluix"
+	],
+	"contentFolders": [
+		"content/SmallFixes",
+		"content/MovieSetLamp",
+		"content/SapienzaChurch",
+		"content/SecurityCams",
+		"content/OACFixes"
+	],
+	"loadBefore": ["KevinRudd.FreelancerVariations"],
+	"blobsFolders": ["blobs", "blobsIOI"],
+	"frameworkVersion": "2.33.20",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
 		{
