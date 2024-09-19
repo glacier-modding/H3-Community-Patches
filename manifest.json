@@ -71,7 +71,7 @@
 		},
 		{
 			"type": "conditional",
-			"name": "Disurptor Escape - Earpiece Voices Compatibility Layer",
+			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
 			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
 			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
