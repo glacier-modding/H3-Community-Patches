@@ -24,6 +24,7 @@
 		"content/OACFixes"
 	],
 	"loadBefore": ["KevinRudd.FreelancerVariations"],
+	"loadAfter": ["invalid.earpiecevoices"],
 	"blobsFolders": ["blobs", "blobsIOI"],
 	"frameworkVersion": "2.33.20",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
@@ -61,6 +62,18 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["content/OACFixesFuto"]
+		},
+		{
+			"type": "conditional",
+			"name": "Disruptor Escape - Base",
+			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
+			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
+		},
+		{
+			"type": "conditional",
+			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
+			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
+			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
 	"localisationOverrides": {
