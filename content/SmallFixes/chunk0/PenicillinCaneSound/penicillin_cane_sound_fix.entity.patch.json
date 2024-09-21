@@ -1,0 +1,35 @@
+{
+	"tempHash": "0002B49EBBF4B408",
+	"tbluHash": "0046AEB1280A930F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fdc6e68686d2add4",
+				{
+					"SetPropertyValue": {
+						"property_name": "CloseCombatImpact_Sound",
+						"value": {
+							"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_cane/play_fol_cane_impact_closecombat.wwiseevent].pc_wwisebank",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"fdc6e68686d2add4",
+				{
+					"SetPropertyValue": {
+						"property_name": "Close_Comba_Impact_Back_Soundt",
+						"value": {
+							"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_cane/play_fol_cane_impactback_closecombat.wwiseevent].pc_wwisebank",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
