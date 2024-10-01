@@ -64,6 +64,13 @@
 			"contentFolders": ["content/OACFixesFuto"]
 		},
 		{
+			"name": "Illegal Snipers for Dubai",
+			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/NoDubaiSnipers"]
+		},
+		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
 			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
