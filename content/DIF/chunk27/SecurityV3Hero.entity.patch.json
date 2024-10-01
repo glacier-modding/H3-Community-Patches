@@ -1,0 +1,21 @@
+{
+	"tempHash": "0063C006F6A235CA",
+	"tbluHash": "0034212216C89019",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b57ab82c8f4d1f4f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/guards/globalsecurity_01/geometry/malereg_globalsecurity.wl2?/headset_01.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,19 @@
+{
+	"tempHash": "00198DB92F81F80A",
+	"tbluHash": "00614457566FC7BB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"3bdb55f2f35ddf39",
+				{ "SetPropertyValue": { "property_name": "Diffuse_Saturation_01_Value", "value": 0.8399999737739563 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"3bdb55f2f35ddf39",
+				{ "SetPropertyValue": { "property_name": "ConstantVector1D_01_Value", "value": 0.75 } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,68 @@
+{
+	"tempHash": "0095CED1523A2BF3",
+	"tbluHash": "0025A61753DAB394",
+	"patch": [
+		{ "RemoveEntityByID": "d464fe842385f208" },
+		{
+			"SubEntityOperation": [
+				"960723c2b7a0141a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["6d7de03377ba430f", "feed4326c629ac3d"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed4326c629ac3d",
+				{
+					"parent": "960723c2b7a0141a",
+					"name": "Mesh_Hat",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "0048062C2C928E35", "flag": "5F" }
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feede4e3fa48d0bb",
+				{
+					"parent": "960723c2b7a0141a",
+					"name": "bandana",
+					"factory": "[assembly:/_pro/characters/assets/individuals/italy/hippie/materials/bandana.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/individuals/italy/hippie/materials/bandana.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+						},
+						"Texture2D_01_enab": { "type": "bool", "value": true },
+						"Texture2D_01": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/textures/male_reg_hippie_bandana_01.texture?/diffuse_b.tex](ascolormap).pc_tex",
+								"flag": "5F"
+							}
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["960723c2b7a0141a"],
+							"postInit": true
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "960723c2b7a0141a", "postInit": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

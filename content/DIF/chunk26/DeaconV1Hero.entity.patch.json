@@ -1,0 +1,13 @@
+{
+	"tempHash": "00D4E1844FF94EAA",
+	"tbluHash": "00CAB60C5FC4DD70",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"fdb4845dd38f8bf6",
+				{ "PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "3a6c577f624b32be" }]] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,29 @@
+{
+	"tempHash": "001CF4747CBF0F28",
+	"tbluHash": "00FA74A647C29527",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"75b48aa0c6194815",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["09d5cbdb545eea59", "feed94e7dd849d1b"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed94e7dd849d1b",
+				{
+					"parent": "75b48aa0c6194815",
+					"name": "Necklace_Cross_GoldChain_L",
+					"factory": "0057976B7307D9CF",
+					"blueprint": "008B1A585F297FF2"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

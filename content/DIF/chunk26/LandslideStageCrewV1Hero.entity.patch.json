@@ -1,0 +1,21 @@
+{
+	"tempHash": "003B9811EF8D4FAC",
+	"tbluHash": "006E7CDD5A15B6B7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"d028c990b95cedda",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/individuals/marrakesh/tvcrew_cameraman_01/geometry/male_reg_tvcrew_cameraman.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

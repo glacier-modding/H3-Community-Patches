@@ -1,0 +1,21 @@
+{
+	"tempHash": "00B99E1EFA603084",
+	"tbluHash": "002F8BFEE7A26F81",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"eba2032360042144",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": {
+							"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/kenmorgan/geometry/male_reg_kenmorgan.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

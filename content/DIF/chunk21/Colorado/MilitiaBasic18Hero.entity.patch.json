@@ -1,0 +1,39 @@
+{
+	"tempHash": "0053B09EEC0B0EA0",
+	"tbluHash": "004CB21DE832E518",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"a9b5b4a2b7363867",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[{ "AddItemAfter": ["32df84b2db4a5252", "cafed2d0bd809369"] }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed2d0bd809369",
+				{
+					"parent": "a9b5b4a2b7363867",
+					"name": "Mesh_GLasses",
+					"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+					"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMeshResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/characters/assets/individuals/italy/hippie/geometry/male_reg_hippie.wl2?/glasses.weightedprim](bodypart).pc_weightedprim",
+								"flag": "5F"
+							}
+						},
+						"m_IsHiddenInVR": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

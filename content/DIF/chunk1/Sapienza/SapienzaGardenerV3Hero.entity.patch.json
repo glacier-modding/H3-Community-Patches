@@ -1,0 +1,35 @@
+{
+	"tempHash": "004EE96EB7902C6B",
+	"tbluHash": "00B5BF138A102409",
+	"patch": [
+		{
+			"AddEntity": [
+				"feedbb2f05e01364",
+				{
+					"parent": "fe73887e60826def",
+					"name": "male_reg_gardener_01_trouser_01",
+					"factory": "[assembly:/_pro/characters/assets/workers/gardeners/materials/male_reg_gardener_01_trouser_01.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/workers/gardeners/materials/male_reg_gardener_01_trouser_01.mi].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+						},
+						"ConstantVector1D_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_01_Value": { "type": "float32", "value": 0.20000000298023224 },
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["fe73887e60826def"],
+							"postInit": true
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fe73887e60826def", "postInit": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

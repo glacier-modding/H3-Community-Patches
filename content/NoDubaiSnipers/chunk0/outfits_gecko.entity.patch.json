@@ -1,0 +1,59 @@
+{
+	"tempHash": "00637AA0549EE05A",
+	"tbluHash": "00D3B768E70B1F11",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f7e9721411c9eb3c",
+				{
+					"AddProperty": [
+						"m_aWeaponsAllowedExceptionKeywords",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe753d21e45dd5"],
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"999920fa5f30f877",
+				{
+					"AddProperty": [
+						"m_aWeaponsAllowedExceptionKeywords",
+						{
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe729caf107e25"],
+							"postInit": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe729caf107e25",
+				{
+					"parent": "999920fa5f30f877",
+					"name": "Keyword_ITEM_SNIPER_RIFLE",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe753d21e45dd5",
+				{
+					"parent": "f7e9721411c9eb3c",
+					"name": "Keyword_ITEM_SNIPER_RIFLE",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

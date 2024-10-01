@@ -1,0 +1,13 @@
+{
+	"tempHash": "00154C0ED941DA01",
+	"tbluHash": "00566AD518F7A6D9",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7561155f779d7f69",
+				{ "SetPropertyValue": { "property_name": "Diffuse_Color_01_Value", "value": "#e0ebc0" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}
