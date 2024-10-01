@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/_test_dialogue/evergreen_d/be_escapenow.sweetdialog?/be_escapenow_diana_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "be_escapenow_diana_001",
+		"soundtag": "Voiceover_Handler",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/_test_dialogue/evergreen_d/be_escapenow_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/_test_dialogue/evergreen_d/be_escapenow_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//[DIANA]\\\\//(0,31)\\\\47! You need to eliminate the target before it's too late.",
+			"fr": "//[DIANA]\\\\//(0,31)\\\\47! You need to eliminate the target before it's too late.",
+			"it": "//[DIANA]\\\\//(0,31)\\\\47! You need to eliminate the target before it's too late.",
+			"de": "//[DIANA]\\\\//(0,31)\\\\47! Du musst die Ziele eliminieren, bevor es zu spät ist.",
+			"es": "//[DIANA]\\\\//(0,31)\\\\47! You need to eliminate the target before it's too late.",
+			"ru": "//[DIANA]\\\\//(0,31)\\\\47! Тебе необходимо устранить цель пока не поздно.",
+			"cn": "//[DIANA]\\\\//(0,31)\\\\47！你必须尽快消灭目标。",
+			"tc": "//[DIANA]\\\\//(0,31)\\\\47！你需要在為時已晚之前消除目標。",
+			"jp": "//[DIANA]\\\\//(0,31)\\\\47! You need to eliminate the target before it's too late."
+		}
+	}
+}

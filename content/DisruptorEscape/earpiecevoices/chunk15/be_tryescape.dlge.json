@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/_test_dialogue/evergreen_d/be_tryescape.sweetdialog?/be_tryescape_diana_001.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "be_tryescape_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/_test_dialogue/evergreen_d/be_tryescape_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/_test_dialogue/evergreen_d/be_tryescape_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//[DIANA]\\\\//(0,31)\\\\47, the target is trying to escape. Don't let them get away.",
+			"fr": "//[DIANA]\\\\//(0,31)\\\\47, the target is trying to escape. Don't let them get away.",
+			"it": "//[DIANA]\\\\//(0,31)\\\\47, the target is trying to escape. Don't let them get away.",
+			"de": "//[DIANA]\\\\//(0,31)\\\\47, das Ziel versucht zu fliehen. Lass sie nicht entkommen.",
+			"es": "//[DIANA]\\\\//(0,31)\\\\47, the target is trying to escape. Don't let them get away.",
+			"ru": "//[DIANA]\\\\//(0,31)\\\\47, цель пытается уйти. Не упусти её.",
+			"cn": "//[DIANA]\\\\//(0,31)\\\\47，目标正试图逃跑。别让他们跑了。",
+			"tc": "//[DIANA]\\\\//(0,31)\\\\47，目標試圖逃跑。別讓他們跑了。",
+			"jp": "//[DIANA]\\\\//(0,31)\\\\47, the target is trying to escape. Don't let them get away."
+		}
+	}
+}
