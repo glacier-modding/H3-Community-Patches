@@ -1,0 +1,139 @@
+{
+	"tempHash": "0003DE78FA9807D5",
+	"tbluHash": "001E37B3A3CEDF6E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f6104aa898016cef",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e016f5d80ed9bfbe",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"54fafa5da59fe711",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a68574767b4060f2",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"22195eb4429a6e31",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d1de83b10956ae2d",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c1f167ddf4257154",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"2d0bd6fcbfd44232",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"880d2e52d489c423",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"b0a72324f527bd7c",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7692ad43f844df8e",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d583c0fece4ad106",
+				{
+					"SetPropertyValue": {
+						"property_name": "numberOfExits",
+						"value": 2
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
