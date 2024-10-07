@@ -124,7 +124,11 @@
 		},
 		"001F0F3B7F11E788": {
 			"english": {
-				"1761677138": "This dagger was once owned by the Dread Pirate known as \"The Black Almond.\" The hilt contains a small secret, one dose of lethal poison, to be used when eliminating a target requires subtlety instead of violence."
+				"1761677138": "This dagger was once owned by the Dread Pirate known as \"The Black Almond.\" The hilt contains a small secret, one dose of lethal poison, to be used when eliminating a target requires subtlety instead of violence.",
+				"2647047869": "Beak Staff",
+				"2959258488": "An explosive snow globe.",
+				"3420969825": "Xmas Star",
+				"3857998122": "Explosive Snow Globe"
 			}
 		},
 		"00212D5C62DFFC1F": {
@@ -430,6 +434,17 @@
 		"00F4D2D220F04D7E": {
 			"english": {
 				"2358461052": "Satellite Dish"
+			}
+		},
+		"00F56C5CB4D83712": {
+			"english": {
+				"2612477407": "Meadow<br>Brown<br>Lounge"
+			},
+			"german": {
+				"2612477407": "Meadow-<br>Brown-<br>Lounge"
+			},
+			"spanish": {
+				"2612477407": "Sala<br>Meadow<br>Brown"
 			}
 		},
 		"00FCD96A98C04927": {
