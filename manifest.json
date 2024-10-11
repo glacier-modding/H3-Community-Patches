@@ -23,9 +23,16 @@
 		"content/SecurityCams",
 		"content/OACFixes"
 	],
-	"loadBefore": ["KevinRudd.FreelancerVariations"],
-	"loadAfter": ["invalid.earpiecevoices"],
-	"blobsFolders": ["blobs", "blobsIOI"],
+	"loadBefore": [
+		"KevinRudd.FreelancerVariations"
+	],
+	"loadAfter": [
+		"invalid.earpiecevoices"
+	],
+	"blobsFolders": [
+		"blobs",
+		"blobsIOI"
+	],
 	"frameworkVersion": "2.33.20",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
@@ -34,7 +41,36 @@
 			"tooltip": "In vanilla, NPCs will sometimes say things like \"somebody's doing stuff they shouldn't\" when reporting accidents. This changes that.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/XplnAccdnt"]
+			"contentFolders": [
+				"content/XplnAccdnt"
+			]
+		},
+		{
+			"name": "Elusive Target Voice Fixes",
+			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"content/ElusiveVoices"
+			]
+		},
+		{
+			"name": "Futo Suit Receives Ninja Dialogue",
+			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"content/OACFixesFuto"
+			]
+		},
+		{
+			"name": "Illegal Snipers for Dubai",
+			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": [
+				"content/NoDubaiSnipers"
+			]
 		},
 		{
 			"name": "Rename Purple Streak Duck",
@@ -50,61 +86,25 @@
 			}
 		},
 		{
-			"name": "Elusive Target Voice Fixes",
-			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/ElusiveVoices"]
-		},
-		{
-			"name": "Futo Suit Receives Ninja Dialogue",
-			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/OACFixesFuto"]
-		},
-		{
-			"name": "Illegal Snipers for Dubai",
-			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
-			"type": "checkbox",
-			"enabledByDefault": true,
-			"contentFolders": ["content/NoDubaiSnipers"]
-		},
-		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
 			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
+			"contentFolders": [
+				"content/DisruptorEscape/base",
+				"content/DisruptorEscape/subtitles"
+			]
 		},
 		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
 			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
-			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
+			"contentFolders": [
+				"content/DisruptorEscape/base",
+				"content/DisruptorEscape/earpiecevoices"
+			]
 		}
 	],
 	"localisationOverrides": {
-		"004EC612565A38BD": {
-			"english": {
-				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
-				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle."
-			}
-		},
-		"008322D98E1CFE04": {
-			"english": {
-				"611928695": "Old garden shears."
-			}
-		},
-		"005DE6FF4B418AF8": {
-			"english": {
-				"2935068597": "A ceremonial dagger."
-			}
-		},
-		"00CD5444B4C541F2": {
-			"german": {
-				"3334260929": "Das Gemini-Fiasko – Stufe 5"
-			}
-		},
 		"0005BE61D5257592": {
 			"english": {
 				"115936382": "Twin sister to Sophia Washington, two young Providence operatives who serve as the leaders of the Ark Society.<br><br>The twins are sixth generation old money and their father, Byron Washington III, one of Providence’s most senior operatives, ran the Pax Mundus Foundation; a hugely influential geo-political think tank.<br><br>A Princeton illumines, like her sister, they both seem like the embodiment of entitled “east coast elite.” They are graceful creatures with a smug, superior demeanor and they share an effortless elegance and beauty that only generations of curated genes can produce. But Zoe and Sophia are also wild at heart. Their distant slave ancestors, brought from Benin in chains, practiced Vodun and they like to say that something dark and feral runs in the Washington bloodline. <br><br>In college, Zoe came under suspicion of running a coke ring at Princeton, and her reputation was almost ruined, but the late superstar lawyer Ken Morgan got her off the hook with his now legendary “affluenza defense.” In the wake of the scandal, the twins disappeared for a while to travel the world, seeking thrills and adventure. And after a chance encounter with world-famous treasure hunter Blake Nathaniel in the Congo, the twins developed a taste for FORTUNE HUNTING.<br><br>Soon after, Zoe and Sophia hired a band of trigger-happy ex-CICADA mercenaries and began to prowl the world’s most remote regions in search for ancient relics, with little regard for the indigenous populations. Several human rights organizations suspect the twins of annihilating an entire indigenous Amazon tribe, while searching for the lost city of Z, but the evidence was inconclusive.<br><br>Recently, the twins have focused much of their energy on leading the Ark Society, which they were intrusted after Janus’ forced retirement. Intel recovered when Mr. Grey raided the Providence archive in New York, indicates that the twins are not only ruthless but endlessly entitled – fully expecting to one day make Partners.<br><br>Curiously, they seem to have been appointed directly by the Providence Partners without Janus’ or the current Constant’s consent.",
@@ -115,11 +115,6 @@
 				"3574464083": "Born in the slums of then-Bombay, Wazir Kale grew up on the streets. Orphaned from a young age, Wazir quickly joined a small group of lawless children nicknamed ‘The Crows’. Young Wazir eventually grew to the top of the gang and, after the old boss died in a car accident, he assumed the role of leader. At the ripe age of 12, his legend was already taking shape.<br><br>As the years passed, Wazir Kale grew with the task, taking care of the children who relied so much on him. In time, the legends outgrew the boy who by then had become a young man. Then, on a hot summer night, the Mumbai mafia decided to set an example and exert the ‘protection’ it was paid to provide shopkeepers with. The Crows were rounded up and Wazir got a severe beating. All but a few remaining Crows were not so lucky. Some legends have it he fought bravely as the gangsters burned down the shack filled with children and young men. Others mention it was in fact Kale himself who killed the Crows.<br><br>Whatever the truth is, Wazir Kale was subsequently initiated into the mafia and accepted his new position with an eye for revenge. A few years later, as he moved up the ranks, he was finally able to exert his revenge. He did so with incredible fury, practically annihilating the local mob outfit. This event added fuel to his already legendary reputation and “The Maelstrom” was born.<br><br>Post-carnage, Kale got out of Mumbai and ended up roaming around the Asian continent. Along the way, he picked up a rag-tag bunch of criminals with whom he formed a sort of paramilitary unit. Together, they eventually ended up raiding commercial ships in the South China Sea, stealing the transported fuel in highly coordinated hits and selling it on the black market.<br><br>The pressure on Kale kept building as the constant obligations mounted. Each new raid forced him to find new waters, find new partners, relocate to another abandoned island. On top of that, the legend forged by the pirates who retired from the raiding added more pressure than ever and gripped his crew in such a way that they began acting more carelessly, adopting more loose tactics and to some extent, chose more daring targets. They were, after all, with The Maelstrom.<br><br>One night, while raiding a Hamsun Oil freighter, a firefight ensued between the Maelstrom’s crew and the ship’s unexpectedly well-armed security force. Someone had tipped them off about the raid and the owner of Hamsun Oil had insisted that the pirates be dealt with – with extreme prejudice. While Kale survived, most of his crew did not and from the wreckage emerged a darker, more menacing figure. Wazir Kale was gone and all that remained was The Maelstrom. This was a dark time for Kale who had not only lost his way but also control of his outfit – all that remained was a desire to destroy, to tear down the bastions of rich westerners who had brought so much injustice to every single member of his crew.<br><br>And then, a light was lit in the far distance. One of The Maelstrom’s surviving crew members contacted him and let him know that a man of great importance wanted to see him. The Maelstrom agreed to the meeting and over the course of a few days got to know Lucas Grey and understand his agenda. While not an altruistic person, The Maelstrom saw something in what Grey was selling – a chance to find a new purpose, to solidify the legend of The Maelstrom into something beyond a modern-day pirate. He would bring liberation to the entire world, no matter the cost in blood.",
 				"3703768432": "The Director of the New York branch of the banking division of financial giant Milton-Fitzpatrick, Miss Savalas is an extremely hard-working, entirely unscrupulous woman who gave up everything personal to succeed in her life as a high-tier banker. \r\n<br>\r\nAn heir to a logistics empire, Athena Savalas entered the male-dominated banking system fresh out of business school. She quickly learned that to succeed, she would need to transform herself entirely from the classic businesswoman she’d been bred to become. Savalas developed a harshness and cut-throat approach to her co-workers, which alienated her from personal relationships at the bank as well as in her private life.\r\n<br>\r\nNow, at the age of 51, Athena Savalas’ transformation is complete. The fair-skinned girl with the bright blue eyes and warm smile has been replaced by an impossibly white creature of infinite sternness who is always in complete control. Savalas is a marble statue at this point, having shed every original bit of herself with every year that she’s worked in finance. She’s an expert at finding loopholes, exploiting tax rules and laundering money for criminals and has been involved in numerous tax evasion schemes, which have earned her multiple “Banker of the Year” awards in the last decade.\r\n<br> \r\nOver the years, Savalas has also developed a refined disdain for the middle class, reducing customers to numbers on sheets of paper with no thought to the things she destroys with her constant “less is more” approach to small and medium-sized businesses. Rumors of wanton gambling with client money and the bank’s finances are beginning to catch up to her and with the board of directors looking for a new CEO of Milton-Fitzpatrick, Savalas is eagerly covering her tracks, using any means necessary.",
 				"4247778829": "Estranged daughter of Robert Knox, Sierra Knox wasn't dealt the best of cards from her early childhood. Her mother died due to complications from childbirth, a fact that Sierra to this day still believes her father holds her secretly responsible for.<br><br>Growing up with a father who always worked, Sierra developed a somewhat reckless personality, always trying to out-do everyone else – including her old man. At age of 17, she was deeply involved with competitive short distance running and, worried that she might lose to her high school competitor, paid a man to ensure the competitor didn't run that afternoon. The competitor was chained to a wheelchair for the rest of her life while Sierra won the race easily. The tactic is one she would use again and again to get the upper hand in both athletics and life in general.<br><br>Sierra Knox graduated from Harvard business school and, without telling her father, secured a job with Kronstadt Industries, diligently working her way to the top of the financial department, finally interviewing for the position of CFO with her somewhat surprised father.<br><br>Sierra Knox has been instrumental in developing the money-earning side of the family business, and she has secured many deals with foreign nationals, including a very controversial decision to field test robot matériel in several rogue nations. While the loss of civilian life was never formally assigned as collateral damage following those tests, leaked internal reports suggest as much.<br><br>Sierra suffers from a serious inferiority complex in relation to her father. Always trying to prove herself to him but often coming up short, she is uncertain about whether he truly cares for her or not. Her insecurity causes her to act out, often irrationally or violently, and she is known for her lifestyle of working hard and partying even harder.<br><br>Sierra Knox is currently highly invested in the Kronstadt racing team and is the company’s lead driver in the Innovation Race. She’s won the race multiple times and is expected to bring home the trophy again."
-			}
-		},
-		"0024113CCDF1598B": {
-			"english": {
-				"773185078": "Mark Faba was always a strange kid. Born to a firefighting father with a serious alcohol problem and an overworked mother working two jobs as a secretary in the iron and steel industry, Mark was left to his own devices from an early age. He spent his formative years living in his parents' basement and deeply embedded himself in the world of hobby electronics, phone phreaking and eventually computer hacking. <br><br> At 18, he found his calling as part of the underground computer hacking scene and sought to make himself a name by performing spectacular penetrations into corporate systems. After a series of hacks against the government, Faba was arrested by MI5 and placed in custody. Here, he was given a non-choice. Hone his skills with the Secret Service and work for England or face years of incarceration. <br><br> Faba spent two decades with MI5. He became an expert at demolitions and marksmanship. He learned infiltration techniques and grew his expertise at espionage, working for years on domestic surveillance projects aimed at journalists, politicians, corporate heads and members of the upper class. The stress and nature of his work got to Faba and one day, everything collapsed. <br><br> While on a mission to install surveillance equipment in the hotel suite of a visiting foreign diplomat, Faba was discovered. A struggle ensued and Faba ended up killing his intended surveillance target. Desperate and fearful of what might happen, Faba worked through the night to fake the circumstances around the man's death. Unfortunately, forensic experts at MI5 soon suspected foul play and as the evidence mounted, Faba felt the ground burn beneath him. In his desperation, he turned to an old bounty hunter connection and with their aid, Mark Faba disappeared from the world and was eventually presumed dead by his own hand. <br><br> Five years later, MI6 discovered a connection between of one their agents, who had been assassinated a year prior, and Mark Faba. Investigating the lead further provided vague indications that Faba was alive and was working as an assassin in various conflict zones around the world. An ICA contract was issued on Faba, requesting that he be terminated. The ICA sent one of their agents and eliminated Faba while on a mission in Somalia. However, Faba reappeared in Kosovo a few months later and so began one of the most enigmatic cases in ICA history. From that initial contract until present day, the ICA has confirmed the death of Faba more than 20 times and somehow, he keeps reappearing. <br><br> Faba has been given the nickname \"The Undying\" and has proven to be an un-erasable embarrassment for the ICA."
 			}
 		},
 		"001F0F3B7F11E788": {
@@ -189,11 +184,22 @@
 				"4293601719": "como prisionero"
 			}
 		},
+		"0024113CCDF1598B": {
+			"english": {
+				"773185078": "Mark Faba was always a strange kid. Born to a firefighting father with a serious alcohol problem and an overworked mother working two jobs as a secretary in the iron and steel industry, Mark was left to his own devices from an early age. He spent his formative years living in his parents' basement and deeply embedded himself in the world of hobby electronics, phone phreaking and eventually computer hacking. <br><br> At 18, he found his calling as part of the underground computer hacking scene and sought to make himself a name by performing spectacular penetrations into corporate systems. After a series of hacks against the government, Faba was arrested by MI5 and placed in custody. Here, he was given a non-choice. Hone his skills with the Secret Service and work for England or face years of incarceration. <br><br> Faba spent two decades with MI5. He became an expert at demolitions and marksmanship. He learned infiltration techniques and grew his expertise at espionage, working for years on domestic surveillance projects aimed at journalists, politicians, corporate heads and members of the upper class. The stress and nature of his work got to Faba and one day, everything collapsed. <br><br> While on a mission to install surveillance equipment in the hotel suite of a visiting foreign diplomat, Faba was discovered. A struggle ensued and Faba ended up killing his intended surveillance target. Desperate and fearful of what might happen, Faba worked through the night to fake the circumstances around the man's death. Unfortunately, forensic experts at MI5 soon suspected foul play and as the evidence mounted, Faba felt the ground burn beneath him. In his desperation, he turned to an old bounty hunter connection and with their aid, Mark Faba disappeared from the world and was eventually presumed dead by his own hand. <br><br> Five years later, MI6 discovered a connection between of one their agents, who had been assassinated a year prior, and Mark Faba. Investigating the lead further provided vague indications that Faba was alive and was working as an assassin in various conflict zones around the world. An ICA contract was issued on Faba, requesting that he be terminated. The ICA sent one of their agents and eliminated Faba while on a mission in Somalia. However, Faba reappeared in Kosovo a few months later and so began one of the most enigmatic cases in ICA history. From that initial contract until present day, the ICA has confirmed the death of Faba more than 20 times and somehow, he keeps reappearing. <br><br> Faba has been given the nickname \"The Undying\" and has proven to be an un-erasable embarrassment for the ICA."
+			}
+		},
 		"004757029ED4D7C4": {
 			"english": {
 				"998061099": "A small plastic bag filled with nondescript pills, euphemistically dubbed \"Allergy Pills\" by the man outside the club entrance.",
 				"3503488150": "Bag of \"Allergy Pills\"",
 				"4183668711": "A man outside the entrance claims he can get you into the club if you help him find his missing \"Allergy Pills\". They're probably close by..."
+			}
+		},
+		"004EC612565A38BD": {
+			"english": {
+				"2312856866": "The youngest child of Alexa Carlisle, Rebecca is a suspect in the murder of Zachary Carlisle.<br><br>Rebecca says Patrick disappeared after dinner last night and may be in \"some sort of trouble\". Edward and Gregory went to a local pub after having drinks at the mansion. Emma acted \"strange\", but Rebecca does not know how she spent the evening. Rebecca herself claims to have been in a conference call from her laptop in her bedroom at the time of Zachary's death. Rebecca adds that Zachary was more talkative than usual and was inquiring into her connections in the publishing business on behalf of \"a friend\".<br><br>Lastly, Rebecca says she found Mr. Fernsby leaving Zachary's room this afternoon.",
+				"3511083906": "The wife of Gregory and daughter-in-law to Madam Carlisle, Emma is a suspect in the murder of Zachary Carlisle.<br><br>She claims to have gone to bed with an \"awful migraine\" when Edward and Gregory had a drink around 8 PM last night. Emma says Zachary's company was always \"awkward\" due to his all consuming fascination with plants. She says she considers Madam Carlisle at least partially responsible for his supposed suicide because she allowed Zachary to become a recluse.<br><br>Lastly, Emma states that she has seen nothing out of the ordinary except that Zachary appeared depressed after the apparent loss of his sister Madam Carlisle."
 			}
 		},
 		"005AF40D2074E112": {
@@ -216,6 +222,11 @@
 		"005B75C20E23402F": {
 			"english": {
 				"638095483": "The young Dame Barbara Keating, née Johnson, was from a modest working-class English background. Her father was a waiter at an expensive restaurant and unlike the rest of the fathers in their neighborhood, who wore overalls and worked on a factory line, Samuel Johnson left to work in a white shirt and a tuxedo. Seeing her father dressed up every morning and her mother’s glowing eyes as she served him his breakfast and brought him the paper was a source of pride to young Barbara. They may not have been better off than anybody else on the block - in fact they often struggled due to her father's heavy drinking - but in her esteem, they were still different.<br>Barbara was a stunning beauty, and at the age of 18 she caught the eye of a visiting businessman, Robert Keating, who was 25 years older than her and based halfway around the world in New Zealand. They married a few years later and when Keating had a heart attack in bed, Barbara sidelined Keating’s family and took control of her late husband's business interests. A tough and ruthless businesswoman, Barbara Keating built an empire, often leaving a fair bit of wreckage in her slipstream.<br>Much later, she made a foray into politics and was eventually appointed Minister of Trade and Foreign Affairs in her adopted homeland, before being given the honorary title Dame Barbara by the queen.<br>At the height of her powers, however, the newly-minted Dame became engulfed in a scandal and was forced to step down from her post. A charity she represented benifitting the homeless was found to have funneled donations into Dame Barbara’s own offshore holdings. To minimize the damage to herself, she drew on tabloid contacts and orchestrated an elaborate smear campaign against the director of the charity, a renowned but fragile poet and social organizer by the name of Jacqueline Vicar. The director was depicted as a blackmailer and conspirator, who aimed to entrap Dame Barbara in a scheme to pay off the mounting costs of Vicar's own private vices. Shortly thereafter, the director was involved in a conspicuously timed car accident, officially (and publicly) considered a suicide.<br>Now a somewhat more paranoid (and significantly more cautious) Dame Barbara is preparing for her political comeback, with help from an uncanny body double."
+			}
+		},
+		"005DE6FF4B418AF8": {
+			"english": {
+				"2935068597": "A ceremonial dagger."
 			}
 		},
 		"0062F1967D03818E": {
@@ -241,6 +252,11 @@
 			},
 			"spanish": {
 				"2736038867": "<li>Completa «El autor».</li><li>Asesina a los objetivos con un rifle de francotirador.</li><li>Elimina solo a los objetivo.</li><li>Evita que te descubran.</li><li>Si te detectan las cámaras, borra o destruye las pruebas.</li>"
+			}
+		},
+		"008322D98E1CFE04": {
+			"english": {
+				"611928695": "Old garden shears."
 			}
 		},
 		"0094D363985DA031": {
@@ -358,6 +374,11 @@
 			"russian": {
 				"2074750976": "Настоящее имя серийного убийцы по прозвищу Критик неизвестно.<br><br>Убийца получил это прозвище за то, что на месте каждого преступления оставлял оценку, которую давал жертве в зависимости от того, насколько отважно она сопротивлялась.<br><br>Судя по официальным полицейским сводкам, убийца — белый мужчина-европеоид в возрасте 50–55 лет. Он очень педантичен и внимателен, а также обладает высоким IQ.<br><br>Составитель отчета предполагает, что убийца воспитывался авторитарным родителем в неполной семье в обстановке постоянного осуждения и контроля, из-за чего и захотел ставить оценки своим жертвам.<br><br>Убийца, который уже много лет скрывается от правосудия, в последнее время отошел от привычной схемы и проявил неосмотрительность, что позволило следствию выйти на след его возможной следующей жертвы в Уиттлтон-Крике.",
 				"2944546513": "Доброе утро, 47-й.<br><br>Твоя цель — одиозный серийный убийца по прозвищу Критик. Как тонкий ценитель театра, Критик «оценивает» своих жертв по тому, насколько отважно они сопротивляются перед смертью.<br><br>К сожалению, мы не знаем, кто скрывается под этим прозвищем, но, вероятнее всего, он сейчас охотится в Уиттлтон-Крике, штат Вермонт, — там были найдены две его последние жертвы.<br><br>Второго такого шанса устранить Критика у нас не будет, 47-й. Найди Критика и сделай всё возможное, чтобы он больше никого не критиковал.<br><br>Желаю удачи."
+			}
+		},
+		"00CD5444B4C541F2": {
+			"german": {
+				"3334260929": "Das Gemini-Fiasko – Stufe 5"
 			}
 		},
 		"00D73433F501F41C": {
