@@ -1,0 +1,18 @@
+{
+	"tempHash": "00706C5A3502C158",
+	"tbluHash": "00BAE5C644049402",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6352be5645f8b75c",
+				{
+					"AddProperty": [
+						"m_fLODScale",
+						{ "type": "float32", "value": 4.0 }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
