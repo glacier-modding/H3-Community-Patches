@@ -1,0 +1,49 @@
+{
+	"tempHash": "00F725F3734C5B6D",
+	"tbluHash": "0039532443F04DB7",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ce3afa6f950b351a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pHeader",
+						"value": {
+							"resource": "00D0910FFB2E96D1",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce3afa6f950b351a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pTitle",
+						"value": {
+							"resource": "00D0910FFB2E96D1",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ce3afa6f950b351a",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pDescription",
+						"value": {
+							"resource": "003FBB953D5B071B",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
