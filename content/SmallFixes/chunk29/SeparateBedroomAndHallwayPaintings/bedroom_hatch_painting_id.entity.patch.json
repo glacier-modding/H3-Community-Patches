@@ -3,10 +3,7 @@
 	"tbluHash": "005BA5CA6AC00627",
 	"patch": [
 		{
-			"SubEntityOperation": [
-				"ee54e3099a56263e",
-				{ "SetName": "3DAE_Redecorate_BedroomWallDecor_C" }
-			]
+			"SubEntityOperation": ["ee54e3099a56263e", { "SetName": "3DAE_Redecorate_BedroomWallDecor_C" }]
 		},
 		{
 			"SubEntityOperation": [
@@ -31,10 +28,7 @@
 			]
 		},
 		{
-			"SubEntityOperation": [
-				"8850167e73ca63bb",
-				{ "SetName": "Setpiece_Evergreen_NIPS_BedroomWallDecor_C" }
-			]
+			"SubEntityOperation": ["8850167e73ca63bb", { "SetName": "Setpiece_Evergreen_NIPS_BedroomWallDecor_C" }]
 		}
 	],
 	"patchVersion": 6
