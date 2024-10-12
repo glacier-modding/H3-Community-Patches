@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"6352be5645f8b75c",
 				{
-					"AddProperty": [
-						"m_fLODScale",
-						{ "type": "float32", "value": 4.0 }
-					]
+					"AddProperty": ["m_fLODScale", { "type": "float32", "value": 4.0 }]
 				}
 			]
 		}

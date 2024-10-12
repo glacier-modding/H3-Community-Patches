@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.66.0",
+	"version": "0.67.0",
 	"id": "GlacierOrganisation.CommunityPatches",
 	"name": "Community Patches",
 	"description": "The Hitman Unofficial Patch: It's like a patch, but unofficial! Fixes various bugs that IO haven't yet.",
@@ -23,16 +23,9 @@
 		"content/SecurityCams",
 		"content/OACFixes"
 	],
-	"loadBefore": [
-		"KevinRudd.FreelancerVariations"
-	],
-	"loadAfter": [
-		"invalid.earpiecevoices"
-	],
-	"blobsFolders": [
-		"blobs",
-		"blobsIOI"
-	],
+	"loadBefore": ["KevinRudd.FreelancerVariations"],
+	"loadAfter": ["invalid.earpiecevoices"],
+	"blobsFolders": ["blobs", "blobsIOI"],
 	"frameworkVersion": "2.33.20",
 	"updateCheck": "https://github.com/glacier-modding/H3-Community-Patches/releases/latest/download/updates.json",
 	"options": [
@@ -41,36 +34,28 @@
 			"tooltip": "In vanilla, NPCs will sometimes say things like \"somebody's doing stuff they shouldn't\" when reporting accidents. This changes that.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/XplnAccdnt"
-			]
+			"contentFolders": ["content/XplnAccdnt"]
 		},
 		{
 			"name": "Elusive Target Voice Fixes",
 			"tooltip": "Corrects improperly assigned voices for certain S2 and S3 elusive/special assignment targets, as well as the targets in the Patient Zero mission.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/ElusiveVoices"
-			]
+			"contentFolders": ["content/ElusiveVoices"]
 		},
 		{
 			"name": "Futo Suit Receives Ninja Dialogue",
 			"tooltip": "If this is enabled, NPCs will refer to 47 as a ninja when he is wearing the Futo Suit. This can be disabled if suit replacer mods are being used.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/OACFixesFuto"
-			]
+			"contentFolders": ["content/OACFixesFuto"]
 		},
 		{
 			"name": "Illegal Snipers for Dubai",
 			"tooltip": "In an earlier patch, IO made it illegal for Dubai Penthouse guards to use sniper rifles. Then, without mentioning it, they un-fixed this. Turning this option on will re-fix it.",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": [
-				"content/NoDubaiSnipers"
-			]
+			"contentFolders": ["content/NoDubaiSnipers"]
 		},
 		{
 			"name": "Rename Purple Streak Duck",
@@ -89,19 +74,13 @@
 			"type": "conditional",
 			"name": "Disruptor Escape - Base",
 			"condition": "not (\"invalid.earpiecevoices\" in config.loadOrder)",
-			"contentFolders": [
-				"content/DisruptorEscape/base",
-				"content/DisruptorEscape/subtitles"
-			]
+			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/subtitles"]
 		},
 		{
 			"type": "conditional",
 			"name": "Disruptor Escape - Earpiece Voices Compatibility Layer",
 			"condition": "\"invalid.earpiecevoices\" in config.loadOrder",
-			"contentFolders": [
-				"content/DisruptorEscape/base",
-				"content/DisruptorEscape/earpiecevoices"
-			]
+			"contentFolders": ["content/DisruptorEscape/base", "content/DisruptorEscape/earpiecevoices"]
 		}
 	],
 	"localisationOverrides": {
