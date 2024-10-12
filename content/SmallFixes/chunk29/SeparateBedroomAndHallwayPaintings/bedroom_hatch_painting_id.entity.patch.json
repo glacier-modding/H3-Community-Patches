@@ -1,0 +1,41 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"ee54e3099a56263e",
+				{ "SetName": "3DAE_Redecorate_BedroomWallDecor_C" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"108031891b0ccb8c",
+				{
+					"SetPropertyValue": {
+						"property_name": "ActiveCosmetic_ID",
+						"value": "Redecorate_BedroomWallDecor_C"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"108031891b0ccb8c",
+				{
+					"SetPropertyValue": {
+						"property_name": "NumberOfAvailableVatiations_ID",
+						"value": "Redecorate_BedroomWallDecor_C_Num"
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8850167e73ca63bb",
+				{ "SetName": "Setpiece_Evergreen_NIPS_BedroomWallDecor_C" }
+			]
+		}
+	],
+	"patchVersion": 6
+}
