@@ -1,0 +1,54 @@
+{
+	"tempHash": "00B6CEDD6778F19C",
+	"tbluHash": "00AE87315CD24E96",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0be913e070ce7f60",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -59.99993732338785
+							},
+							"position": {
+								"x": -0.22049500033259392,
+								"y": -0.2886759889125824,
+								"z": 1.093276023864746
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4c774d7a95cb1e20",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+							"position": {
+								"x": -0.22049200147390363,
+								"y": -0.2886609983444214,
+								"z": 0.9966220259666444
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddComment": {
+				"parent": "4c774d7a95cb1e20",
+				"name": "Notes",
+				"text": "Changing x position values slightly. "
+			}
+		}
+	],
+	"patchVersion": 6
+}
