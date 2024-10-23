@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/bangkok/4000_cross/4000_story/dr4239_cougarwalks.sweetdialog?/dr4239_cougarwalks_civfem01_007.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr4239_cougarwalks_civfem01_007",
+		"soundtag": "In-world_Mission_Normal",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/bangkok/4000_cross/4000_story/dr4239_cougarwalks_civfem01_007.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/bangkok/4000_cross/4000_story/dr4239_cougarwalks_civfem01_007.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Relax, Holly. I'm not Norma Desmond. I know who I am. Washed up sitcom star. Hell, it suits me.",
+			"fr": "//(0,1.6)\\\\T'inquiète pas, Holly.//(1.6,4.3)\\\\Je ne suis pas Norma Desmond, moi. Je sais qui je suis.//(4.3,5.8)\\\\Une ancienne star de la télé.//(5.8,35.8)\\\\Et je le vis très bien.",
+			"it": "//(0,30)\\\\Rilassati, Holly. Non prendermi per Norma Desmond. Io so chi sono: una vecchia star delle sitcom. E mi sta bene.",
+			"de": "//(0,4.2)\\\\Schon gut, Holly. Ich bin nicht Norma Desmond. Ich weiß, wer ich bin.//(4.2,34.2)\\\\Ein ehemaliger Sitcom-Star. Das ist schon okay.",
+			"es": "//(0,4)\\\\Relájate, Holly. No soy Norma Desmond. Sé quién soy.//(4,34)\\\\Una estrella de televisión acabada. Joder, me pega.",
+			"ru": "//(0,1.356196)\\\\Спокойно, Холли.//(1.356196,3.1)\\\\Я же не Норма Десмонд.//(3.1,4.6)\\\\И все понимаю.//(4.6,6.25)\\\\Забытая звезда ситкомов.//(6.25,36.25)\\\\Посмотрим правде в глаза.",
+			"cn": "//(0,4.518098)\\\\放松点，贺莉。我又不是诺玛·戴斯蒙。我清楚自己的斤两。//(4.518098,34.5181)\\\\我就是个过气的喜剧明星。啧，还真适合我啊。",
+			"tc": "//(0,4.4)\\\\放鬆點，賀莉。我又不是諾瑪．戴斯蒙。我清楚自己的斤兩。//(4.4,34.4)\\\\我就是個過氣的喜劇明星。嘖，還真適合我啊。",
+			"jp": "//(0,30)\\\\わかってるわよ。 自分の 立場は 自覚してるわ。 くたびれたテレビドラマの 元スター。 それが 私よ。"
+		}
+	}
+}

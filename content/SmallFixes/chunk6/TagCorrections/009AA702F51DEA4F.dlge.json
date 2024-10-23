@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/wet/rat/43000_story/dr43154_walkwaygem.sweetdialog?/dr43154_walkwaygem_47_002.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "dr43154_walkwaygem_47_002",
+		"soundtag": "In-world_Maincharacter",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/rat/43000_story/dr43154_walkwaygem_47_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/rat/43000_story/dr43154_walkwaygem_47_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Sorry.",
+			"fr": "//(0,30)\\\\Désolé.",
+			"it": "//(0,30)\\\\Spiacente.",
+			"de": "//(0,30)\\\\Tut mir leid.",
+			"es": "//(0,30)\\\\Lo siento.",
+			"ru": "//(0,30)\\\\Простите.",
+			"cn": "//(0,30)\\\\抱歉。",
+			"tc": "//(0,30)\\\\抱歉。",
+			"jp": "//(0,30)\\\\すまない。"
+		}
+	}
+}

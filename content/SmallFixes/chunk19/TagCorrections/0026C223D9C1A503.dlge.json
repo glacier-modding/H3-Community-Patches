@@ -1,0 +1,299 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/crowd/miami_possession/miami_phone/phone_fem.sweetdialog].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "Random",
+		"containers": [
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem05_001",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_001.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_001.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem05_002",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_002.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_002.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem05_003",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_003.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_003.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem05_004",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_004.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem05_004.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem06_005",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_005.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_005.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem06_006",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_006.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_006.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem06_007",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_007.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_007.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem06_008",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_008.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem06_008.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem07_009",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_009.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_009.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem07_010",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_010.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_010.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem07_011",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_011.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_011.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem07_012",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_012.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem07_012.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_013",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_013.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_013.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_014",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_014.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_014.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_015",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_015.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_015.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_016",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_016.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_016.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_017",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_017.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_017.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem08_018",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_018.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem08_018.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem09_019",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem09_019.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem09_019.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfem09_020",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem09_020.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfem09_020.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes01_021",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_021.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_021.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes01_022",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_022.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_022.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes01_023",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_023.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_023.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes01_024",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_024.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes01_024.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes02_025",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_025.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_025.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes02_026",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_026.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_026.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes02_027",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_027.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_027.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes02_028",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_028.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes02_028.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes03_029",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_029.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_029.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes03_030",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_030.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_030.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes03_031",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_031.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_031.animset].pc_animset",
+				"languages": {}
+			},
+			{
+				"type": "WavFile",
+				"wavName": "phone_fem_civfemes03_032",
+				"weight": 0.031249942257996932,
+				"soundtag": "In-world_Mission_UnImportant",
+				"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_032.wav].pc_wes",
+				"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/crowd/miami_possession/miami_phone/phone_fem_civfemes03_032.animset].pc_animset",
+				"languages": {}
+			}
+		]
+	}
+}

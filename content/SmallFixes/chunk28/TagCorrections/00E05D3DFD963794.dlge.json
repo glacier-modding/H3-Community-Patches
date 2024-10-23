@@ -1,0 +1,14 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "[assembly:/localization/hitman6/conversations/rocky/dugong/46000_ambient/da46118_pirateengnrchat.sweetdialog?/da46118_pirateengnrchat_dugong_engineer_mhi02_006.sweetdialogitem].pc_dialogevent",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "da46118_pirateengnrchat_dugong_engineer_mhi02_006",
+		"soundtag": "In-world_Mission_UnImportant",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/rocky/dugong/46000_ambient/da46118_pirateengnrchat_dugong_engineer_mhi02_006.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/rocky/dugong/46000_ambient/da46118_pirateengnrchat_dugong_engineer_mhi02_006.animset].pc_animset",
+		"languages": {}
+	}
+}
