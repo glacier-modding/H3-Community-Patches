@@ -1,4 +1,4 @@
-# Community Patches
+# Unofficial Community Patch
 
 A collection of Quality of Life fixes for Hitman III (or Hitman: World of Assassination). This ranges from localisation line break fixes, all the way to model part replacements to fix inverted normals on clothing, and everything in-between. If it's broken in-game, this project aims to fix it!
 
