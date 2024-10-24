@@ -1,0 +1,35 @@
+{
+	"tempHash": "00887DDFD8656D90",
+	"tbluHash": "00FA83E7FF633C2E",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"7d585a96c53c7071",
+				{ "SetName": "laundry_carts_a" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7d585a96c53c7071",
+				{
+					"SetFactory": "[assembly:/_pro/environment/geometry/props/containers/laundry_carts_a.wl2?/laundry_carts_a.prim].pc_entitytype"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e761f06c24b89097",
+				{ "SetName": "laundry_carts_a_02" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e761f06c24b89097",
+				{
+					"SetFactory": "[assembly:/_pro/environment/geometry/props/containers/laundry_carts_a.wl2?/laundry_carts_a.prim].pc_entitytype"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
